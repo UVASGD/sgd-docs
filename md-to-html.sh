@@ -8,15 +8,17 @@ for infile in `find . | grep '\.md$'`; do
     pagetitle=`head -1 $infile | sed -r 's/#\s*//g'`
 	# HTML filename is the same as MD filename with extension replaced
     outfile=`echo $infile | sed -r 's/md$/html/g'`
-	# derive css link from file's location in system (NOTE: filenames should not contain '/')
-	cssprefix=`echo $infile | tr -d -c '/' | sed -r 's/^\///g' | sed -r 's/\//..\//g'`
+	# derive relative path prefix from file's location in system (NOTE: filenames should not contain '/')
+	pathprefix=`echo $infile | tr -d -c '/' | sed -r 's/^\///g' | sed -r 's/\//..\//g'`
+	# derive meta tag for favicon (TODO: make less hacky)
+	faviconmd="---\nheader-includes: <link href=\"${pathprefix}favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n---\n\n"
 	# transform the file by replacing .md hyperlinks with .html equivalents
-	# then use pandoc to handle the conversion, linking the css file
-	cat $infile | \
+	# then use pandoc to handle the conversion, linking the css and favicon files
+	printf "--" "${faviconmd}$(cat ${infile})" | \
 	sed -r 's/\.md\s*\)/.html)/g' | \
-    pandoc -V "pagetitle:$pagetitle" \
+    pandoc -s -V "pagetitle:$pagetitle" \
 		-r markdown \
 		-w html \
-		-c "${cssprefix}modest.css" \
+		-c "${pathprefix}modest.css" \
 		-o $outfile
 done
