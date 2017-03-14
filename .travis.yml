@@ -1,19 +1,18 @@
-# do not download any extra packages
 language: generic
-
-# only run builds from pushes to master
 branches:
   only:
   - master
-
-# only send emails when build status changes from success to broken
 notifications:
   email:
     on_success: never
     on_failure: change
-
+install:
+- sudo apt-get install pandoc
 script:
-- echo "hello world"
-#- bash ./md-to-html.sh
-#after_success:
-#- bash ./deploy-gh-pages.sh
+- bash ./md-to-html.sh
+after_success:
+- bash ./deploy-gh-pages.sh
+env:
+  global:
+  - GH_REF="github.com/UVASGD/sgd-docs.git"
+  - secure: nlIuIXXCQ1qH+6uNqJFQV/bhYYvyXZP/s37VjI6V7io3F99YLF/YffHyeij9w1xR3LB4EddgdAtYBZbqDuy0fMB5FAWc4qOtDyojUWvPYhdaFsSj67T/jmBP87e4Qjg0fRyRbysRbjqp6vx/nFeJnE0w1cociiCyS5bR4mRRbqm0MBPGuSHzV0qsQBRxvbUL7RxU4cM4EMIigN2P8Iuob+qMB5R33G8HcwCbUP9P+FcsnCqq/GjYCyRIgpk8GbzWygGP/lJE5NMmDZKPhcLrb69Efgb8Fv7/fo/Dx97E8m0v1AdqsqD2gMdqTk/nPLpNF4byn+SfRe4AqYvhfn07JMnfZUltGjuVDxIasZKCnQolo2mfbISDHEKblhJkiTvR8CMZZ7lnI3RbI4tNGkTHBda/i3LYaiwgRijmT6+7L58eTqQyo6+UDPz2ATeawDaMhLhS+lXLx7j4FruUReF07vjxtN7I00iNcr3088O9XRXiGjSZGqL42vy9N/5GglOo0GagxvuARKzOgsop5nKaNh8PEyV22lvcPzIt/FkQwBv0EFDOWg3wWfOjOCxEhtggE7I6XUHV3DvRIkgq6FFNY+dG3+DoSJFuLpdAU2ezQGg0KH7IuOZWGfLigqNmtC9CC4Df66VBcvDmfpJMXRyQRuR66oCiFUdyFraQt2KZ9zA=
