@@ -9,4 +9,4 @@
 7. Select your Status and School
 8. Finally, click "Submit my Booking"
 
-[Back](/../index.md)
+[Back](../index.md)

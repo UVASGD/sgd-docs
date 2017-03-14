@@ -4,4 +4,4 @@
 * Talk to a secretary there about reserving a room, and tell them it's for Student Game Developers
 * They have some weird, stupid, and arbitrary rules about reservation times and lengths but you can convince them to ignore them if you're charisma is high enough.
 
-[Back](/../index.md)
+[Back](../index.md)
