@@ -46,8 +46,8 @@ And it might be possible that you know both of these things! That's great! Just 
 9. Read the Affirmation and click the "I agree" button
 10. Finally, click Save. After this, you're done.
 
-You should get an email in a few days confirming it, and if you don’t, you can email the administrator at [adminr25@virginia.edu](adminr25@virginia.edu)
+You should get an email in a few days confirming it, and if you don’t, you can email the administrator at <adminr25@virginia.edu>
 
-If that doesn’t work, you can email Cathy Dean at [cld@virginia.edu](cld@virginia.edu) or, preferably, go see her in her office in Thornton. Ask someone over there, it’s always changing and is never easy to find...
+If that doesn’t work, you can email Cathy Dean at <cld@virginia.edu> or, preferably, go see her in her office in Thornton. Ask someone over there, it’s always changing and is never easy to find...
 
 [Back](../index.md)

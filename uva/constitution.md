@@ -1,4 +1,4 @@
-# CONSTITUTION FOR THE STUDENT GAME DEVELOPERS AT THE UNIVERSITY OF VIRGINIA
+# Constitution for the Student Game Developers at the University of Virginia
 
 ### Article I: NAME.
 
@@ -27,11 +27,11 @@ The following is an enumeration of the voting officer positions (i.e. the execut
 5. **INTERNAL RELATIONS**: The internal relations officer shall communicate with membership about all club events via email. The internal relations officer is also responsible for planning the logistics of all club events, including specific scheduling and room reservations. The internal relations officer is also responsible for maintaining contacts with other University of Virginia organization.
 6. **WEBMASTER**: The Webmaster is responsible for maintaining the SGD website and documenting club activity via photographs or video and blog posts.
 
-Voting officer positions may be added or removed by a unanimous vote of the executive board. Any changes made in this way will take effect when the next year’s executive board stands for election.
+Voting officer positions may be added or removed by a unanimous vote of the executive board. Any changes made in this way will take effect when the next year's executive board stands for election.
 
 The responsibilities of voting officers may be changed by a unanimous vote of the executive board, effective immediately.
 
-Any officer (voting or non-voting) may be impeached at any time by any other officer, in accordance with the following procedure: the PROSECUTING OFFICER, who is the officer who wishes to impeach, must provide justification to the entire executive board of the unsuitableness of the DEFENDANT OFFICER for carrying out his or her duties. The defendant officer must be present for this justification. Following the prosecution’s justification, the defendant officer is given the opportunity to offer a rebuttal. A vote is then called. The defendant officer may request a recess of up to one hour before this vote is held. The vote requires a unanimous less one vote to impeach the defendant officer. If this succeeds, the defendant is removed from his or her position immediately and the President may nominate another member to fill in until the next election. This nominee must be confirmed by a simple majority vote of the remaining voting officers. In the event that the impeachment vote fails, the prosecuting officer may not attempt to impeach any other officer until his or her term has ended.
+Any officer (voting or non-voting) may be impeached at any time by any other officer, in accordance with the following procedure: the PROSECUTING OFFICER, who is the officer who wishes to impeach, must provide justification to the entire executive board of the unsuitableness of the DEFENDANT OFFICER for carrying out his or her duties. The defendant officer must be present for this justification. Following the prosecution's justification, the defendant officer is given the opportunity to offer a rebuttal. A vote is then called. The defendant officer may request a recess of up to one hour before this vote is held. The vote requires a unanimous less one vote to impeach the defendant officer. If this succeeds, the defendant is removed from his or her position immediately and the President may nominate another member to fill in until the next election. This nominee must be confirmed by a simple majority vote of the remaining voting officers. In the event that the impeachment vote fails, the prosecuting officer may not attempt to impeach any other officer until his or her term has ended.
 
 The following is an enumeration of non-voting officers. These positions may be changed at any time by the executive board with a simple majority vote. Those changes must be reflected here.
 
@@ -39,7 +39,7 @@ The following is an enumeration of non-voting officers. These positions may be c
 
 ### Article V: ELECTIONS.
 
-Elections are to be held at the Mid Semester Expo during the spring semester. In these elections, any senior member may stand for election to any voting officer position. The positions will be voted on in the order they appear in this constitution. No person may hold more than one position at any one time – that is, someone elected to a position may not stand for another position. Newly elected voting officers will shadow their predecessors during all SGD functions until the conclusion of the spring semester, and will take full responsibility for the club thereupon.
+Elections are to be held at the Mid Semester Expo during the spring semester. In these elections, any senior member may stand for election to any voting officer position. The positions will be voted on in the order they appear in this constitution. No person may hold more than one position at any one time - that is, someone elected to a position may not stand for another position. Newly elected voting officers will shadow their predecessors during all SGD functions until the conclusion of the spring semester, and will take full responsibility for the club thereupon.
 
 Votes may be counted *in absentia* if and only if an senior member sends his or her votes before the beginning of the Spring MSE.
 
@@ -47,7 +47,7 @@ Only active members may vote in the elections.
 
 ### Article VI: FINANCE.
 
-SGD will maintain a bank account. Only the treasurer may access the funds contained therein, and he or she may only do so with the express consent of the president. Dues will be assessed on a yearly basis; the amount and usage of said dues is entirely up to the discretion of the relevant year’s executive board. All questions related to dues require a simple majority vote of the executive board.
+SGD will maintain a bank account. Only the treasurer may access the funds contained therein, and he or she may only do so with the express consent of the president. Dues will be assessed on a yearly basis; the amount and usage of said dues is entirely up to the discretion of the relevant year's executive board. All questions related to dues require a simple majority vote of the executive board.
 
 ### Article VII. AMENDMENTS.
 
