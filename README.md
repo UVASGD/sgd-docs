@@ -4,7 +4,8 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ---
 
-* [Unity](unity/index.md)
+1. [Unity](unity/index.md)
+2. [Booking Space](space/index.md)
 
 ### Contributing
 
@@ -17,7 +18,7 @@ If you arrived via the Github Pages interface, [the repo is hosted on Github](ht
 
 ### Markdown conversion
 
-Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on Github; it is also converted to HTML so it can be consumed on Github Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course.
+Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on Github; it is converted to HTML so it can be consumed on Github Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course.
 
 ### License
 
