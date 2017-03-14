@@ -9,4 +9,4 @@ Make sure you're an Event Coordinator on our @UVA page. Then, just go by the 4th
 * Make sure you get confirmation by email within 2 days or else go back and bug them because there’s probably a problem. 
 * Make sure you figure out and get a copy of the room setup
 
-[Back](/../index.md)
+[Back](../index.md)

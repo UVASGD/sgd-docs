@@ -50,4 +50,4 @@ You should get an email in a few days confirming it, and if you don’t, you can
 
 If that doesn’t work, you can email Cathy Dean at [cld@virginia.edu](cld@virginia.edu) or, preferably, go see her in her office in Thornton. Ask someone over there, it’s always changing and is never easy to find...
 
-[Back](/../index.md)
+[Back](../index.md)
