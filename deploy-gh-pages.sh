@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # make new directory with built files
-cd ..
-cp -a sgd-docs built
-cd built
-git init
+#cd ..
+#cp -a sgd-docs built
+#cd built
+#git init
 
 # make a commit and deploy to github pages
+git checkout master
 git config user.name "Travis"
 git config user.email "sgdatuva@gmail.com"
 git add .
