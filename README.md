@@ -4,8 +4,8 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ---
 
-1. [Unity](unity/index.md)
-2. [Booking Space](space/index.md)
+* [UVa Specific Material](uva/index.md)
+* [Unity](unity/index.md)
 
 ### Contributing
 

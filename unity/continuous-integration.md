@@ -182,3 +182,5 @@ travis encrypt UPLOAD_USER=build_account --add
 ```
 
 With this done, the `.travis.yml` is complete. On the Travis CI web interface, flip the switch for your repo to turn builds on. Then, sit back and relax with the knowledge that automation has made your project uber awesome. ^_^
+
+[Back](./index.md)
