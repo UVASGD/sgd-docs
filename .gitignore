@@ -1,2 +1,5 @@
 # markdown documents
 *.md
+
+# build scripts
+Scripts/
