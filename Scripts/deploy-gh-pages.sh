@@ -10,8 +10,8 @@ rsync -avm --include='*.html' \
 	--include '*.ico' \
 	--filter='hide,! */' sgd-docs/ sgd-docs-ghp
 cd sgd-docs-ghp
-git config user.name "Travis"
+git config user.name "Travis CI"
 git config user.email "sgdatuva@gmail.com"
 git add .
-git commit -m "Travis: generate HTML pages [ci skip]"
+git commit -m "Auto-deploy"
 git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" > /dev/null 2>&1

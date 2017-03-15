@@ -9,16 +9,22 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### Contributing
 
-If you arrived via the Github Pages interface, [the repo is hosted on Github](https://github.com/UVASGD/sgd-docs). Please fork the repo, add more content in the form of Markdown documents (see below), regenerate the HTML files by running the `md-to-html.sh` script with a shell in the repo's root directory, and submit a pull request. A couple notes:
+If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). Please fork the `master` branch (or make a separate branch if you're a collaborator), add more content in the form of [Markdown documents](#markdown-conversion), and submit a pull request. Some scripts will deploy your contributions to GitHub pages automatically. The `gh-pages` branch should only have HTML generated from the build system, whereas `master` should only have Markdown; therefore, the two branches should be kept independent of each other (i.e. do not merge them). Some formatting rules:
 
-* If the Markdown doc links to internal images, add the image files to the repo as well.
-* If the Markdown doc links to internal text files, use the `md` extension in the Markdown; the script will convert that link to `html` for the HTML files automatically.
-* To run the script, Pandoc (see below) needs to be installed and added to the PATH.
-* To run the script on Windows, use the [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide) or [Cygwin](https://www.cygwin.com/).
+* Content files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
+* If the Markdown doc links to internal images, add the image files to the repo. Images should be `.png` or `.jpg`.
+* If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; the script will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
+* Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
 
-### Markdown conversion
+If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
 
-Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on Github; it is converted to HTML so it can be consumed on Github Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course.
+* To run `Scripts/md-to-html.sh`, [Pandoc](#markdown-conversion) needs to be installed and added to the PATH.
+* To run Bash scripts on Windows, use the [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), [Cygwin](https://www.cygwin.com/), [MinGW](http://www.mingw.org/), or [Git Shell](https://desktop.github.com/).
+* The HTML files should be gitignored, but in any case, do not upload them to `master`.
+
+### Markdown Conversion [![](https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master)](https://travis-ci.org/UVASGD/sgd-docs)
+
+Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on GitHub; it is converted to HTML so it can be consumed on GitHub Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course. These scripts are run automatically through [Travis CI](https://travis-ci.org/UVASGD/sgd-docs) whenever changes are made to the `master` branch.
 
 ### License
 
