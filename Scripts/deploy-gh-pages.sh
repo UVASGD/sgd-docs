@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # make a commit and deploy to github pages
+git remote update
+git fetch
 git checkout --track origin/gh-pages
 git config user.name "Travis"
 git config user.email "sgdatuva@gmail.com"
