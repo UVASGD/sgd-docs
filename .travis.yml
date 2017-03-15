@@ -7,11 +7,11 @@ notifications:
     on_success: never
     on_failure: change
 install:
-- sudo apt-get install pandoc
+- bash ./Scripts/install.sh
 script:
-- bash ./md-to-html.sh
+- bash ./Scripts/md-to-html.sh
 after_success:
-- bash ./deploy-gh-pages.sh
+- bash ./Scripts/deploy-gh-pages.sh
 env:
   global:
   - GH_REF="github.com/UVASGD/sgd-docs.git"
