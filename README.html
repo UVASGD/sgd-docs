@@ -18,15 +18,21 @@
 <li><a href="unity/index.html">Unity</a></li>
 </ul>
 <h3 id="contributing">Contributing</h3>
-<p>If you arrived via the Github Pages interface, <a href="https://github.com/UVASGD/sgd-docs">the repo is hosted on Github</a>. Please fork the repo, add more content in the form of Markdown documents (see below), regenerate the HTML files by running the <code>md-to-html.sh</code> script with a shell in the repo's root directory, and submit a pull request. A couple notes:</p>
+<p>If you arrived via the GitHub Pages interface, <a href="https://github.com/UVASGD/sgd-docs">the repo is hosted on GitHub</a>. Please fork the <code>master</code> branch (or make a separate branch if you're a collaborator), add more content in the form of <a href="#markdown-conversion">Markdown documents</a>, and submit a pull request. Some scripts will deploy your contributions to GitHub pages automatically. The <code>gh-pages</code> branch should only have HTML generated from the build system, whereas <code>master</code> should only have Markdown; therefore, the two branches should be kept independent of each other (i.e. do not merge them). Some formatting rules:</p>
 <ul>
-<li>If the Markdown doc links to internal images, add the image files to the repo as well.</li>
-<li>If the Markdown doc links to internal text files, use the <code>md</code> extension in the Markdown; the script will convert that link to <code>html</code> for the HTML files automatically.</li>
-<li>To run the script, Pandoc (see below) needs to be installed and added to the PATH.</li>
-<li>To run the script on Windows, use the <a href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide">Windows Linux Subsystem</a> or <a href="https://www.cygwin.com/">Cygwin</a>.</li>
+<li>Content files like CSS and images should be uploaded to <code>master</code>; from there they will be copied to <code>gh-pages</code> automatically.</li>
+<li>If the Markdown doc links to internal images, add the image files to the repo. Images should be <code>.png</code> or <code>.jpg</code>.</li>
+<li>If the Markdown doc links to internal text files, use the <code>.md</code> extension in the Markdown hyperlink; the script will convert that link to <code>.html</code> for the generated HTML files automatically. (NOTE: this makes linking external <code>.md</code> files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like <code>#</code> at the end of the link, a la <code>.md#</code>)</li>
+<li>Include a <em>Back</em> link that steps up the document tree hierarchy at the end of each document.</li>
 </ul>
-<h3 id="markdown-conversion">Markdown conversion</h3>
-<p>Content is written in <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, as it is easy to write and renders well on Github; it is converted to HTML so it can be consumed on Github Pages as well. The conversion is handled by <a href="http://pandoc.org/">Pandoc</a> with the help of scripts adapted from a UVa CS course.</p>
+<p>If you would like to preview the HTML files locally before pushing the Markdown documents, run <code>Scripts/md-to-html.sh</code> from a shell whose current directory is the repo root directory. Some tips:</p>
+<ul>
+<li>To run <code>Scripts/md-to-html.sh</code>, <a href="#markdown-conversion">Pandoc</a> needs to be installed and added to the PATH.</li>
+<li>To run Bash scripts on Windows, use the <a href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide">Windows Linux Subsystem</a>, <a href="https://www.cygwin.com/">Cygwin</a>, <a href="http://www.mingw.org/">MinGW</a>, or <a href="https://desktop.github.com/">Git Shell</a>.</li>
+<li>The HTML files should be gitignored, but in any case, do not upload them to <code>master</code>.</li>
+</ul>
+<h3 id="markdown-conversion">Markdown Conversion <a href="https://travis-ci.org/UVASGD/sgd-docs"><img src="https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master" /></a></h3>
+<p>Content is written in <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, as it is easy to write and renders well on GitHub; it is converted to HTML so it can be consumed on GitHub Pages as well. The conversion is handled by <a href="http://pandoc.org/">Pandoc</a> with the help of scripts adapted from a UVa CS course. These scripts are run automatically through <a href="https://travis-ci.org/UVASGD/sgd-docs">Travis CI</a> whenever changes are made to the <code>master</code> branch.</p>
 <h3 id="license">License</h3>
 <p>The material in this repo is released under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution ShareAlike 4.0</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons" /></a></p>
 </body>
