@@ -2,16 +2,9 @@
 
 Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](http://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
 
----
-
-<<<<<<< Updated upstream
-* [UVa Specific Material](uva/index.md)
-* [Unity](unity/index.md)
-=======
 1. [Unity](unity/index.md)
 2. [Aseprite](aseprite/index.md) 
-3. [Booking Space](space/index.md)
->>>>>>> Stashed changes
+3. [UVa Specific Material](uva/index.md)
 
 ### Contributing
 
