@@ -11,19 +11,19 @@ How to use Anim_Import:
     
 Steps:
 
-1. Locate aseprite.exe
+1. **Locate aseprite.exe**
 This is an absolute must. Without having Aseprite installed on the current machine, the program cannot import data from .ase files. The program assumes you'll have it installed at the default location, but this may differ depending on how you installed Aseprite.
 
-2. Locate the art folder. 
+2. **Locate the art folder**
 The program tries to do this automatically by assuming it is located in	the same directory as the Unity project, but this may differ from project to project. Enter the location in the "Art Folder" field.
 
-3. Extract data from .ase file
+3. **Extract data from .ase file**
 Once you've located the art folder, the "Aseprite File" field will update to include a list of all .ase files it has found. (.aseprite files are ignored, unfortunately). The currently selected file will be where all the animation data is imported from. By clicking "Extract From .ase File" the program will create a subfolder called "JSON" to put all the information it extracts.
 														  
-4. [optional] Select GameObject
+4. **[optional] Select GameObject**
 From the project, select a GameObject whose animation you would like to update. If you only wish to view the animation data from the .ase file, simply deselect "Apply Directly to Object"
 																	      	 
-5. Import Animation Data
+5. **Import Animation Data**
 Press "Import Animation Data" to run the bulk of the program. It will import animation data from the selected .ase file in the "Aseprite File" field. If successful, the program will both output the data in the text area "Anim Data" as well as update every AnimationClip attached to the GameObject.
 																								       	    	 
 Selecting "Show Frame Data" will show where each frame should be located in regards to sample index. This can be used for debug purposes.
