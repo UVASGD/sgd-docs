@@ -4,8 +4,14 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ---
 
+<<<<<<< Updated upstream
 * [UVa Specific Material](uva/index.md)
 * [Unity](unity/index.md)
+=======
+1. [Unity](unity/index.md)
+2. [Aseprite](aseprite/index.md) 
+3. [Booking Space](space/index.md)
+>>>>>>> Stashed changes
 
 ### Contributing
 
