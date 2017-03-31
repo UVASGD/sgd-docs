@@ -30,4 +30,4 @@
 * [1.1.9](1.1.9/[Linux_32]aseprite_1.1.9-1_i386.deb)
 * [1.1.8](1.1.8/[Linux_32]aseprite_1.1.98-1_i386.deb)
 
-[Back](../README.md)
+[Back](../index.md)
