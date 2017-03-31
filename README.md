@@ -1,6 +1,6 @@
 # SGD Docs
 
-Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](http://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
+Documents, tutorials, and tips are designed to help members of [Student Game Developers at UVa](http://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
 
 1. [Unity](unity/index.md)
 2. [Aseprite](aseprite/index.md) 
