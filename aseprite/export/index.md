@@ -2,7 +2,7 @@
 
 First, you will need to download Aseprite. Please see the previous page for information about that. Next, you will of course need Unity so please see the Unity subwiki for that. 
 
-Finally, you will need the [Anim_Inport.cs script](Anim_Import.cs).
+Finally, you will need the [Anim_Inport.cs script](https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42).
 
 How to use Anim_Import:
 * This guide is originally from the SGD project Kin (Fall 2016 to Spring 2017) so if some of the stuff seems nonspecific to your own project, that is why. Feel free to go back to the repo to check it out.
