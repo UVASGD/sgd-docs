@@ -159,19 +159,19 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Cacoo](https://cacoo.com/) 
 
 ##### Text-based
-[Collabedit] - text editor / chat hybrid with simple syntax highlighting, easy to share
-[Workflowy] - Collaborative list editor, useful for organizing tasks into lists and prioritize them
-[Editorially] - versioned, collaborative markdown text editor that has nice export formats 
-[Fargo] - nice outliner / notepad
+* [Collabedit](http://collabedit.com/) - text editor / chat hybrid with simple syntax highlighting, easy to share
+* [Workflowy](https://workflowy.com/)- Collaborative list editor, useful for organizing tasks into lists and prioritize them
+* [Editorially](http://stet.editorially.com/articles/editorially-joins-vox-media/) - versioned, collaborative markdown text editor that has nice export formats 
+* [Fargo](http://fargo.io/) - nice outliner / notepad
 
 ##### Miscellaneous
-[Procedural terrain tool for Unity3D](http://code.google.com/p/unityterraintoolkit/downloads/list)
-[PixelProspector’s gamedev big lists](http://www.pixelprospector.com/indie-resources/)
-[GIFCam](http://blog.bahraniapps.com/gifcam/) - Free recorder that outputs optimized GIFs
-[EZGif](https://ezgif.com/) - Online GIF animation editor and maker
-[JSFiddle](https://jsfiddle.net/) - collaborative tool for web projects 
-[Github Gists](https://gist.github.com/) -  collection of useful scripts
-[Open Broadcaster Software](https://obsproject.com/) - Cross Platform Streaming/Screen Capture
+* [Procedural terrain tool for Unity3D](http://code.google.com/p/unityterraintoolkit/downloads/list)
+* [PixelProspector’s gamedev big lists](http://www.pixelprospector.com/indie-resources/)
+* [GIFCam](http://blog.bahraniapps.com/gifcam/) - Free recorder that outputs optimized GIFs
+* [EZGif](https://ezgif.com/) - Online GIF animation editor and maker
+* [JSFiddle](https://jsfiddle.net/) - collaborative tool for web projects 
+* [Github Gists](https://gist.github.com/) -  collection of useful scripts
+* [Open Broadcaster Software](https://obsproject.com/) - Cross Platform Streaming/Screen Capture
 
 
 [Back](../README.md)
