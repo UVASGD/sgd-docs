@@ -3,6 +3,7 @@
 ### Club Documents
 
 * [Constitution](constitution.md)
+* [Branding](branding.md)
 
 ### Useful Functions
 
