@@ -1,10 +1,10 @@
 # Photon Unity Networking
 
-This article discusses setting up Photon with a Unity project to enable networked multiplayer games.
+This article discusses setting up [Photon](https://www.photonengine.com/en-US/PUN) with a Unity project to enable networked multiplayer games.
 
 ## Initial Setup Process
 
-In order to set up Photon Unity Networking (PUN) for the first time, follow the [Initial Setup](https://doc.photonengine.com/en-us/pun/current/getting-started/initial-setup) instructions (Note: To import, go to the Assets Store and download. Demos will be included and are documented [here](https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro) under the Manuals and Demos section).
+In order to set up Photon Unity Networking (PUN) for the first time, follow the [Initial Setup](https://doc.photonengine.com/en-us/pun/current/getting-started/initial-setup) instructions (Note: to import, go to the Assets Store and download. Demos will be included and are documented [here](https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro) under the Manuals and Demos section).
 
 ## Getting the Basics
 
@@ -34,11 +34,17 @@ To learn in detail what an RPC is, look at the documentation [here](https://doc.
 
 ### Implementation
 
-A detailed guide to implementation can be found [here](https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent), but we will attempt to break it down more in this document. The first thing you must set up when trying to use RPCs is make the script your method is in inherit from `Photon.MonoBehaviour` (i.e. `public class YourBehaviour : Photon.MonoBehaviour`). The second setup step is to add the attribute `PunRPC` before the method (just put `[PunRPC]` before your method declaration). Now you can invoke the method you added this attribute to as an RPC method.
+A detailed guide to implementation can be found [here](https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent), but we will attempt to break it down more in this document. The first thing you must set up when trying to use RPCs is make the script your method is in inherit from `Photon.MonoBehaviour`. This looks like:
+
+```
+public class YourBehaviour : Photon.MonoBehaviour
+```
+
+The second setup step is to add the attribute `PunRPC` before the method (just put `[PunRPC]` before your method declaration). Now you can invoke the method you added this attribute to as an RPC method.
 
 ### Invocation
 
-An RPC can only be called on an object's `PhotonView` (i.e. `yourPhotonView.RPC()`). This invocation means that whatever action you specify in the RPC call will be applied to the object which `yourPhotonView` belongs to. Usually, we specify that the RPC should apply to all other `PhotonView`s/`Player`s in the room by using the parameter `PhotonTargets.All`, however `.All` can be replaced with other extensions specified in the [documentation](https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent). After you specify `PhotonTargets`, you can specify method parameters. Note that `GameObject`s cannot be passed into RPC methods and are discussed below in "Tag Systems". If anything described above is unclear to you, we strongly recommend you refer to the documentation provided above, as it shows a code snippet which we found useful.
+An RPC can only be called on an object's `PhotonView` (i.e. `yourPhotonView.RPC()`). This invocation means that whatever action you specify in the RPC call will be applied to the object which `yourPhotonView` belongs to. Usually, we specify that the RPC should apply to all other `PhotonView`s or `Player`s in the room by using the parameter `PhotonTargets.All`, however `.All` can be replaced with other extensions specified in the [API](https://doc-api.exitgames.com/en/pun/current/group__public_api.html#gab84b274b6aa3b3a3d7810361da16170f). After you specify `PhotonTargets`, you can specify method parameters. Note that `GameObject`s cannot be passed into RPC methods and are discussed below in "Tag Systems". If anything described above is unclear to you, we strongly recommend you refer to the [documentation](https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent), as it shows a code snippet which we found useful.
 
 ### Management
 
