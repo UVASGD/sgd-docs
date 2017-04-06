@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Photon Unity Networking</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../modest.css" type="text/css" />
+  <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<h1 id="photon-unity-networking">Photon Unity Networking</h1>
+<p>This article discusses setting up Photon with a Unity project to enable networked multiplayer games.</p>
+<h2 id="initial-setup-process">Initial Setup Process</h2>
+<p>In order to set up Photon Unity Networking (PUN) for the first time, follow the <a href="https://doc.photonengine.com/en-us/pun/current/getting-started/initial-setup">Initial Setup</a> instructions (Note: To import, go to the Assets Store and download. Demos will be included and are documented <a href="https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro">here</a> under the Manuals and Demos section).</p>
+<h2 id="getting-the-basics">Getting the Basics</h2>
+<p>Your Unity project should now contain a folder called <em>Photon Unity Networking</em>. This folder contains a subfolder called <em>Utility Scripts</em>. Here you can find all of the basic functionalities of a multiplayer game implemented using Photon. For example, <a href="https://github.com/UVASGD/spring-2017-superstellar">SuperStellar</a> uses the <code>Connect and Join Random</code> script allows players to join the game straight from the start screen. Looking at these scripts is a great way to start understanding the fundamentals of PUN, as they are well documented, have intuitive names, and are usually very useful in setting up a barebones multiplayer game.</p>
+<h2 id="general-structure">General Structure</h2>
+<p><a href="http://stackoverflow.com/questions/37743191/when-to-use-photon-networking-master-client">This Stack Overflow post</a> gives an idea of what the Photon server does. Essence: all game logic is farmed out to some client. All clients are capable of handling all game logic. Master client assigning is robust.</p>
+<h2 id="creating-a-network-gameobject">Creating a Network GameObject</h2>
+<p>In order to keep track of the network setup required for a multiplayer game, we strongly suggest you create a <code>GameObject</code> called <code>Network</code> that has the necessary scripts attached. These scripts include the network connection script (like <code>Connect and Join Random</code>) and another built-in script called <code>OnJoinedInstantiate</code>. The <code>OnJoinedInstantiate</code> allows you to add players to the game when they have joined a room and are ready to play. There are other scripts that will also allow you to do this (or you could make one yourself), but we found that this script served most of our purposes. In the Unity editor, you can specify where you would like to spawn players and provide the <code>Player</code> Prefab (creation described below) to instantiate. Having these base scripts in one <code>GameObject</code> simplifies the debugging process and using built-in scripts simplifies the network setup process significantly.</p>
+<h2 id="making-a-player">Making a Player</h2>
+<p>Since multiplayer games usually use multiple of the same type of player en masse, the first thing you need to do is make a <code>Player</code> Prefab. To do this, create a new <code>GameObject</code> in your Unity scene. Then, click and drag the new <code>GameObject</code> into your <em>Resources</em> folder. From here on out, it is good practice to directly edit the Prefab in the <em>Resources</em> folder to make sure the changes you make are applied in game when you use it. Now, we have to add a few components to our Prefab to allow it to communicate over the multiplayer network. The first thing we need to add is a <code>PhotonView</code>. This script component allows us to use RPCs (which we will discuss later) and communicate information over the network. Add a <code>PhotonView</code> by clicking on &quot;Add Component&quot; and search for <code>PhotonView</code>. You can leave the component as is for now, but we will add an Observed Component later. Now your Prefab is able to send information, but <code>PhotonView</code> does not track the movement of the player. In order to synchronize player movement, rotation, and scale across all clients, you must add a <code>Photon Transform View</code>. You can add this component similarly to a <code>PhotonView</code>. After adding this component, we need to add it to the <code>PhotonView</code>'s Observed Components. Now your player is able to send RPCs and we can track its movement over the network, meaning it is ready for multiplayer. In order to understand the details of this component, I recommend looking at the <a href="https://doc.photonengine.com/en-us/pun/current/tutorials/pun-basics-tutorial/player-networking#trans_sync">documentation</a> (Transformation Synchronization section).</p>
+<h3 id="side-tips">Side Tips</h3>
+<ul>
+<li>We have found that best movement tracking is achieved by setting the <code>Interpolate Option</code> for <code>Synchronize Position</code> to &quot;Estimated Speed&quot; and the <code>Extrapolate Option</code> to &quot;Synchronize Values&quot;.</li>
+<li>If you have changed the scale of your prefab, you must check the <code>Synchronize Scale</code> option to maintain the scale you have set.</li>
+<li>While the documentation PUN provides was not useful to us because we made a 2D game, the player creation for a 3D game is described quite well <a href="https://doc.photonengine.com/en-us/pun/current/tutorials/pun-basics-tutorial/player-prefab">here</a>.</li>
+</ul>
+<h2 id="remote-procedure-calls-rpcs">Remote Procedure Calls (RPCs)</h2>
+<p>To learn in detail what an RPC is, look at the documentation <a href="https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent">here</a>. To summarize the documentation, RPCs allow you to apply normal methods to tell all connected players about remote events.</p>
+<h3 id="implementation">Implementation</h3>
+<p>A detailed guide to implementation can be found <a href="https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent">here</a>, but we will attempt to break it down more in this document. The first thing you must set up when trying to use RPCs is make the script your method is in inherit from <code>Photon.MonoBehaviour</code> (i.e. <code>public class YourBehaviour : Photon.MonoBehaviour</code>). The second setup step is to add the attribute <code>PunRPC</code> before the method (just put <code>[PunRPC]</code> before your method declaration). Now you can invoke the method you added this attribute to as an RPC method.</p>
+<h3 id="invocation">Invocation</h3>
+<p>An RPC can only be called on an object's <code>PhotonView</code> (i.e. <code>yourPhotonView.RPC()</code>). This invocation means that whatever action you specify in the RPC call will be applied to the object which <code>yourPhotonView</code> belongs to. Usually, we specify that the RPC should apply to all other <code>PhotonView</code>s/<code>Player</code>s in the room by using the parameter <code>PhotonTargets.All</code>, however <code>.All</code> can be replaced with other extensions specified in the <a href="https://doc.photonengine.com/en-us/pun/current/manuals-and-demos/rpcsandraiseevent">documentation</a>. After you specify <code>PhotonTargets</code>, you can specify method parameters. Note that <code>GameObject</code>s cannot be passed into RPC methods and are discussed below in &quot;Tag Systems&quot;. If anything described above is unclear to you, we strongly recommend you refer to the documentation provided above, as it shows a code snippet which we found useful.</p>
+<h3 id="management">Management</h3>
+<p>Since a multiplayer game will primarily communicate information using RPCs, you must ensure that each client cannot make any local changes that it is not supposed to make. By default, a client is allowed to access and manipulate all other players' behaviour, because all of the necessary components are left enabled. In order to prevent this, we must include checks in each of our player specific scripts to prevent this inconsistency. To do this, add either of the two following code snippets before your first method:</p>
+<pre><code>void OnEnable()
+{
+    if (this.photonView != null &amp;&amp; !this.photonView.isMine) 
+    {
+        this.enabled = false;
+        return;
+    }
+}
+
+void Start()
+{
+    if (this.photonView != null &amp;&amp; !this.photonView.isMine) 
+    {
+        this.enabled = false;
+        return;
+    }
+}</code></pre>
+<p>The <code>if</code> statement checks if the current object has a <code>PhotonView</code> attached to it and if the <code>PhotonView</code> does not belong to the local player using the built in <code>.isMine</code> property. If the <code>PhotonView</code> does not belong to us, the script must be intended to manipulate another player's movement. Therefore, we disable it so we are not able to access and manipulate the other player's information.</p>
+<p><a href="./index.html">Back</a></p>
+</body>
+</html>
