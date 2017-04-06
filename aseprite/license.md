@@ -99,4 +99,4 @@ therein, libel, infringements of rights of publicity, privacy,
 trademark rights, business interruption, personal injury, loss of
 privacy, moral rights or the disclosure of confidential information.
 
-[Back](../index.md)
+[Back](./index.md)

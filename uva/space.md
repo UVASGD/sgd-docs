@@ -1,4 +1,13 @@
-# Booking Space through The Source
+# Booking Space
+
+## Where?
+
+* For the E-School (Thornton, Mec., Wilson), Nau/Gibson, Clark lecture halls, see [The Source](#booking-through-the-source)
+* For Rice Hall, see [Rice](#booking-in-rice)
+* For Newcomb Hall spaces, Ern Commons, or larger events, see [Event Planning Officer](#booking-through-newcomb-event-planning-services)
+* For any Library spaces such as Library conference rooms, see [Library](#booking-at-a-library)
+
+## Booking through The Source
 
 So the first thing you've got to know about The Source is that it's terrible. So stick with it!
 
@@ -46,8 +55,36 @@ And it might be possible that you know both of these things! That's great! Just 
 9. Read the Affirmation and click the "I agree" button
 10. Finally, click Save. After this, you're done.
 
-You should get an email in a few days confirming it, and if you don’t, you can email the administrator at <adminr25@virginia.edu>
+You should get an email in a few days confirming it, and if you don't, you can email the administrator at <adminr25@virginia.edu>
 
-If that doesn’t work, you can email Cathy Dean at <cld@virginia.edu> or, preferably, go see her in her office in Thornton. Ask someone over there, it’s always changing and is never easy to find...
+If that doesn't work, you can email Cathy Dean at <cld@virginia.edu> or, preferably, go see her in her office in Thornton. Ask someone over there, it's always changing and is never easy to find...
 
-[Back](../index.md)
+## Booking in Rice
+
+* So you're going to go to the 5th Floor of Rice Hall and take a right out of the elevators. Then, the office is straight ahead. They're open during normal business hours (8AM - 5PM)
+* Talk to a secretary there about reserving a room, and tell them it's for Student Game Developers
+* They have some weird, stupid, and arbitrary rules about reservation times and lengths but you can convince them to ignore them if you're charisma is high enough.
+
+## Booking through Newcomb Event Planning Services
+
+### As an SGD Member
+So you have to be labeled as an Event Coordinator for SGD on our @UVA page and we only get to have two of these, so you're going to have to talk to an officer.
+
+### As an SGD Officer
+Make sure you're an Event Coordinator on our @UVA page. Then, just go by the 4th Floor of Newcomb hall. Follow the signs and talk to Tessa (she's in charge and she knows us).
+
+* Make sure you get confirmation by email within 2 days or else go back and bug them because there's probably a problem. 
+* Make sure you figure out and get a copy of the room setup
+
+## Booking at a Library
+
+* Go to [LibCal](http://cal.lib.virginia.edu/)
+* Select the space you're looking for on the right
+* Select the date on the new blade on the left
+* Select the times on the right (with a maximum of 2 to 3 hours depending on location)
+* Click "Submit Time slots"
+* Authenticate with Netbadge
+* Select your Status and School
+* Finally, click "Submit my Booking"
+
+[Back](./index.md)

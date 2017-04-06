@@ -1,6 +1,6 @@
 # Exporting Animations from Asesprite to Unity
 
-First, you will need to [download Aseprite](../download/index.md). Next, you will of course need Unity so please see the [Unity subwiki](../../unity/index.md) for that.
+First, you will need to [download Aseprite](./download.md). Next, you will of course need Unity so please see the [Unity subwiki](../unity/index.md) for that.
 
 Finally, you will need the [Anim_Import.cs script](https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42).
 
@@ -33,4 +33,4 @@ Typically .ase files contain loops. The program assumes that you want to create 
 
 I haven't programmed the capability of adding AnimationClips using .ase animation data, so you'll have to first create a dummy Animation for each GameObject if you want to use this program. Sorry! *Note*: If you want to program that yourself, go ahead and implement the method called `createClips()`. Also, in `onGUI()`, make sure to change the variable `update` to enable that method!
 
-[Back](../index.md)
+[Back](./index.md)

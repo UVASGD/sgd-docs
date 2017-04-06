@@ -1,6 +1,6 @@
 # Download Aseprite through UVA Student EULA
 
-**NOTE**: By downloading, installing, and using these binaries you confirm that you are a UVA student and are complying (and will continue to comply) with the [Aseprite EULA for UVA](../license/index.md).
+**NOTE**: By downloading, installing, and using these binaries you confirm that you are a UVA student and are complying (and will continue to comply) with the [Aseprite EULA for UVA](./license.md).
 
 ### Windows
 
@@ -32,4 +32,4 @@
 * [1.1.9](https://github.com/UVASGD/sgd-docs/releases/download/v1.1.9/Linux_32.aseprite_1.1.9-1_i386.deb)
 * [1.1.8](https://github.com/UVASGD/sgd-docs/releases/download/v1.1.8/Linux_32.aseprite_1.1.8-1_i386.deb)
 
-[Back](../index.md)
+[Back](./index.md)

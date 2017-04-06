@@ -22,7 +22,7 @@ If you would like to preview the HTML files locally before pushing the Markdown 
 * To run Bash scripts on Windows, use the [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), [Cygwin](https://www.cygwin.com/), [MinGW](http://www.mingw.org/), or [Git Shell](https://desktop.github.com/).
 * The HTML files should be gitignored, but in any case, do not upload them to `master`.
 
-### Markdown Conversion [![](https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master)](https://travis-ci.org/UVASGD/sgd-docs)
+### Markdown Conversion[![](https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master)](https://travis-ci.org/UVASGD/sgd-docs)
 
 Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on GitHub; it is converted to HTML so it can be consumed on GitHub Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course. These scripts are run automatically through [Travis CI](https://travis-ci.org/UVASGD/sgd-docs) whenever changes are made to the `master` branch.
 

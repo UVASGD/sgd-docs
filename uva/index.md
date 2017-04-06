@@ -7,6 +7,6 @@
 
 ### Useful Functions
 
-* [Booking Space](space/index.md)
+* [Booking Space](space.md)
 
 [Back](../README.md)
