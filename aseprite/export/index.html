@@ -11,9 +11,14 @@
 </head>
 <body>
 <h1 id="exporting-animations-from-asesprite-to-unity">Exporting Animations from Asesprite to Unity</h1>
-<p>First, you will need to download Aseprite. Please see the previous page for information about that. Next, you will of course need Unity so please see the Unity subwiki for that.</p>
-<p>Finally, you will need the <a href="https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42">Anim_Inport.cs script</a>.</p>
-<p>How to use Anim_Import: * This guide is originally from the SGD project Kin (Fall 2016 to Spring 2017) so if some of the stuff seems nonspecific to your own project, that is why. Feel free to go back to the repo to check it out. * This program imports animation clips from .ase files and attaches them to GameObjects. * It was created to make it easier to create sprite animations with dynamic frame lengths in Unity, as it is very tedious and time consuming to do manually.</p>
+<p>First, you will need to <a href="../download/index.html">download Aseprite</a>. Next, you will of course need Unity so please see the <a href="../../unity/index.html">Unity subwiki</a> for that.</p>
+<p>Finally, you will need the <a href="https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42">Anim_Import.cs script</a>.</p>
+<p>How to use <code>Anim_Import</code>:</p>
+<ul>
+<li>This guide is originally from the <a href="https://github.com/UVASGD/spring-2017-kin">SGD project Kin</a> so if some of the stuff seems nonspecific to your own project, that is why.</li>
+<li>This program imports animation clips from .ase files and attaches them to GameObjects.</li>
+<li>It was created to make it easier to create sprite animations with dynamic frame lengths in Unity, as it is very tedious and time consuming to do manually.</li>
+</ul>
 <p>Steps:</p>
 <ol style="list-style-type: decimal">
 <li><p><strong>Locate aseprite.exe</strong> This is an absolute must. Without having Aseprite installed on the current machine, the program cannot import data from .ase files. The program assumes you'll have it installed at the default location, but this may differ depending on how you installed Aseprite.</p></li>
@@ -24,8 +29,7 @@
 </ol>
 <p>Selecting &quot;Show Frame Data&quot; will show where each frame should be located in regards to sample index. This can be used for debug purposes.</p>
 <p>Typically .ase files contain loops. The program assumes that you want to create AnimationClips of with the same names as these loops, as this generally is how the animation is first created. However, since it goes through the existing AnimationClips first instead, it will not import the animation if the .ase file does not contain a loop of the same name.</p>
-<p>I haven't programmed the capability of adding AnimationClips using .ase animation data, so you'll have to first create a dummy Animation for each GameObject if you want to use this program. Sorry!</p>
-<p>Note: If you want to program that yourself, go ahead and program the method called &quot;createClips()&quot;. Also, in &quot;onGUI()&quot;, make sure to change the variable &quot;update&quot; to enable that method!</p>
+<p>I haven't programmed the capability of adding AnimationClips using .ase animation data, so you'll have to first create a dummy Animation for each GameObject if you want to use this program. Sorry! <em>Note</em>: If you want to program that yourself, go ahead and implement the method called <code>createClips()</code>. Also, in <code>onGUI()</code>, make sure to change the variable <code>update</code> to enable that method!</p>
 <p><a href="../index.html">Back</a></p>
 </body>
 </html>
