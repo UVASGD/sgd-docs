@@ -15,7 +15,7 @@ for infile in `find . | grep '\.md$'`; do
 	headermd="---\nheader-includes:\n- ${faviconlink}\n---\n\n"
 	# transform the file by replacing .md hyperlinks with .html equivalents
 	# then use pandoc to handle the conversion, linking the css and favicon files
-	cat <(echo "$headermd") <(cat "$infile") | \
+	cat <(printf "--" "$headermd") <(cat "$infile") | \
 	sed -r 's/\.md\s*\)/.html)/g' | \
     pandoc -s -V "pagetitle:$pagetitle" \
 		-r markdown \
