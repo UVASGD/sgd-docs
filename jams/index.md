@@ -3,15 +3,14 @@
 Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from links to game engines to board game tips to online sound synthesizers! So take a look around!
 
 ### Tools
-* [Modeling](http://blender.org)
+
+* [Blender](http://blender.org) - 3D Modeling
 * [MagicaVoxel](https://voxel.codeplex.com/)
 * [Openframeworks](http://www.openframeworks.cc/) - C++ toolkit
 * [Color Scheme Designer](http://colorschemedesigner.com/)
-* [Sound editing](http://audacity.sf.net/)
-* [Music](http://lmms.sf.net/)
-* [More Music](http://boscaceoil.net/)
 
 ### Vector/Scalar Image & 2D Graphics
+
 * [GIMP / FOSS Photoshop](http://gimp.org)
 * [Get Paint / Paint.NET](http://www.getpaint.net/)
 * [2D Tiled Map Editor](http://www.mapeditor.org/)
@@ -21,11 +20,12 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Krita](https://krita.org/)
 * [Aseprite](http://www.aseprite.org/) - which SGD at UVA provides
 * [Pixlr](http://pixlr.com/editor/)
-* [Piskel](http://www.piskelapp.com/) - Online Pixelart & Sprite Editor)
+* [Piskel](http://www.piskelapp.com/) - Online Pixelart & Sprite Editor
 * [Shoebox](http://renderhjs.net/shoebox/) 
-* [2D Sprite Sketchpad](https://goo.gl/drj1Xd)
+* [2D Sprite Sketchpad](https://goo.gl/drj1Xd) - Physical book
 
 ### Source Control
+
 * [Mercurial SCM](http://mercurial.selenic.com) (software only)
 * [Git](http://git-scm.com) (software only)
 * [GitHub](https://github.com) (software and hosting)
@@ -35,6 +35,7 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Perforce](https://www.perforce.com/)
 
 ### IDEs
+
 * [Eclipse](http://www.eclipse.org/)
 * [Visual Studio Community 2015](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 * [Monodevelop](http://monodevelop.com/)
@@ -42,8 +43,8 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Komodo Edit](http://www.activestate.com/komodo-edit)
 
 ### Engines
-* [Unity](http://unity3d.com) - be sure to check out our Unity subwiki!
-* [Unreal Development Kit](http://unrealengine.com/udk) - free version of Unreal Engine 3
+
+* [Unity](http://unity3d.com) - be sure to check out our [Unity subwiki](../unity/index.md)!
 * [Unreal Engine 4](https://www.unrealengine.com/what-is-unreal-engine-4)
 * [Cry Engine SDK](http://cryengine.com)
 * [GameMaker](http://yoyogames.com)
@@ -68,35 +69,39 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Appcelerator](http://www.appcelerator.com/developers/)
 
 ### HTML5 / Javascript
-* [Listing](http://html5gameengine.com/)
+
 * [Game Closure](http://www.gameclosure.com/)
 * [Canvas Engine](http://canvasengine.net/)
-* [List of HTML5 / Javascript engines](ttp://html5gameengine.com/)
-* [CreateJS](http://createjs.com/#!/CreateJS) - HTML5/Javascript libraries - preloading, audio, canvas, tween
+* [List of HTML5 / Javascript engines](http://html5gameengine.com/)
+* [CreateJS](http://createjs.com/) - HTML5/Javascript libraries - preloading, audio, canvas, tween
 * [Box2D](http://box2d-js.sourceforge.net/) - javascript 2d physics library
 * [Javascript 3D toolkit](http://jeromeetienne.github.io/tquery/)
 * [Phaser](http://phaser.io/)
 * [Cocos2D HTML5](http://www.cocos2d-x.org/download)
 
 ### Unity Packages
+
 * [Fungus](http://fungusgames.com/) - Package which is great for building narrative in Unity3D 
 * [ProBuilder Basic](http://www.protoolsforunity3d.com/probuilder/) - BSP style level editing tools for Unit3D
 
 ### Audio
+
 * [Irrklang](http://www.ambiera.com/irrklang/)
-* [Sound Effects](http://www.asoundeffect.com/global-game-jam-sound-effects/) - access to 5000+ sound effects in Soundly
+* [A Sound Effect](http://www.asoundeffect.com/global-game-jam-sound-effects/) - access to 5000+ sound effects in Soundly
 * [Audacity](http://audacity.sourceforge.net/) - Audio, Recording, Music
-* [Procedural Music](http://abundant-music.com) (Needs a Midi Renderer)
+* [Abundant Music](http://abundant-music.com) - Procedural Music (Needs a Midi Renderer)
 * [SynthFont](http://www.synthfont.com) (Midi Renderer)
 * [GXSCC](http://www.geocities.co.jp/SiliconValley-SanJose/8700/P/GsorigE.htm) (Midi Renderer)
-* [Chip Tune Creator](http://www.beepbox.co)
+* [BeepBox](http://www.beepbox.co) - Chip Tune Creator
 * [Milkytracker](http://www.milkytracker.org)
 * [BFXR Sound Effect Generator](http://www.bfxr.net/)
-* [ChipTone](http://sfbgames.com/chiptone/?s=eNpjYOIwNdnPwGARyAAG9Q1AQoHnjLERz5n6__b_GYyNIII-Z1DpyBnYxdXSoIawrwNqnQhkAA0Bi8BoIgQYUPkwM2F21v8HQfn_QD4AHocxQA..) (BFXR’s big brother)
-* [Audio Tracker](http://ludumdare.com/compo/2011/12/13/if-you-find-it-hard-to-make-music-read-this/)
-* [LMMS](https://lmms.io/) (open-source music making program)
+* [ChipTone](http://sfbgames.com/chiptone/) (BFXR’s big brother)
+* [Audio Tracker](http://ludumdare.com/compo/2011/12/13/if-you-find-it-hard-to-make-music-read-this/) - forum post that points to [this script](https://github.com/iamgreaser/it2everything/blob/master/atrk-bu.py)
+* [LMMS](https://lmms.io/) - Open-source music making program
+* [Bosca Ceoil](http://boscaceoil.net/) - Easy to use music tool
 
 ### Frameworks
+
 * [XNA (C#)](http://www.microsoft.com/en-us/download/details.aspx?id=23714)
 * [MonoGame](http://monogame.net/) - Open source version of XNA, actively maintained
 * [Processing (Java)](http://processing.org/)
@@ -109,14 +114,17 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Raylib](http://www.raylib.com/)
 
 ### Assets
-* [Everything](ttp://opengameart.org) - most models in Blender format
+
+* [Everything](http://opengameart.org) - most models in Blender format
 
 ##### 3D Models
+
 * [TurboSquid](http://turboSquid.com)
 * [Blendswap](http://www.blendswap.com/)
 * [Unity Asset Store](https://www.assetstore.unity3d.com)
 
 ##### Textures / 2D Art
+
 * [CGTextures](http://www.cgtextures.com)
 * [Open Footage Textures](http://www.openfootage.net)
 * [Glitch The Game](http://glitchthegame.com/public-domain-game-art/) - 2D sprites and Flash backgrounds
@@ -124,7 +132,8 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [2D art list](http://bit.ly/18avkmQ)
 
 ##### Audio
-* [Music (and graph paper!!)] (http://incompetech.com)
+
+* [Incompetech](http://incompetech.com) - Music (and graph paper!!)
 * [New Grounds](http://www.newgrounds.com/audio)
 * [Free FX](http://freesfx.co.uk)
 * [Sound Bible FX](http://soundbible.com)
@@ -132,6 +141,7 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [The Open Bundle (Music, 2D assets)](http://open.commonly.cc/)
 
 ##### Fonts
+
 * [1001 Fonts](http://www.1001fonts.com)
 * [1001 Free Fonts](http://www.1001freefonts.com)
 * [FontRiver](http://www.fontriver.com)
@@ -141,16 +151,19 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Da Font](http://dafont.com/)
 
 ##### Public Domain
+
 * [New York Public Library](http://digitalcollections.nypl.org/)
 * [NASA Audio Library](https://archive.org/details/nasaaudiocollection) 
 
 ### Board games
-* [Board game tools](http://www.rptools.net/)
+
+* [RPTools](http://www.rptools.net/)
 * [FabLab tools](http://fab.cba.mit.edu/content/tools/)
 
 ###Task Management Tools
 
 ##### Graphical
+
 * [Trello](https://trello.com/) -  project management, general bucket list, collect screenshots, vote on features
 * [Murally](https://mural.co/) - pinboard that connects to google drive and evernote
 * [Realtime](https://realtimeboard.com/) - Board pinboard
@@ -159,14 +172,16 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Cacoo](https://cacoo.com/) 
 
 ##### Text-based
+
 * [Collabedit](http://collabedit.com/) - text editor / chat hybrid with simple syntax highlighting, easy to share
-* [Workflowy](https://workflowy.com/)- Collaborative list editor, useful for organizing tasks into lists and prioritize them
-* [Editorially](http://stet.editorially.com/articles/editorially-joins-vox-media/) - versioned, collaborative markdown text editor that has nice export formats 
+* [Workflowy](https://workflowy.com/) - collaborative list editor, useful for organizing tasks into lists and prioritize them
 * [Fargo](http://fargo.io/) - nice outliner / notepad
+* [Overleaf] - collaborative LaTeX writing and publishing
 
 ##### Miscellaneous
+
 * [Procedural terrain tool for Unity3D](http://code.google.com/p/unityterraintoolkit/downloads/list)
-* [PixelProspector’s gamedev big lists](http://www.pixelprospector.com/indie-resources/)
+* [PixelProspector's gamedev big lists](http://www.pixelprospector.com/indie-resources/)
 * [GIFCam](http://blog.bahraniapps.com/gifcam/) - Free recorder that outputs optimized GIFs
 * [EZGif](https://ezgif.com/) - Online GIF animation editor and maker
 * [JSFiddle](https://jsfiddle.net/) - collaborative tool for web projects 
