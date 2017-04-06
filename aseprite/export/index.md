@@ -1,11 +1,12 @@
 # Exporting Animations from Asesprite to Unity
 
-First, you will need to download Aseprite. Please see the previous page for information about that. Next, you will of course need Unity so please see the Unity subwiki for that. 
+First, you will need to [download Aseprite](../download/index.md). Next, you will of course need Unity so please see the [Unity subwiki](../../unity/index.md) for that.
 
-Finally, you will need the [Anim_Inport.cs script](https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42).
+Finally, you will need the [Anim_Import.cs script](https://gist.github.com/SGDatUVA/10a37b86433a8061d57085fa8376df42).
 
-How to use Anim_Import:
-* This guide is originally from the SGD project Kin (Fall 2016 to Spring 2017) so if some of the stuff seems nonspecific to your own project, that is why. Feel free to go back to the repo to check it out.
+How to use `Anim_Import`:
+
+* This guide is originally from the [SGD project Kin](https://github.com/UVASGD/spring-2017-kin) so if some of the stuff seems nonspecific to your own project, that is why.
 * This program imports animation clips from .ase files and attaches them to GameObjects.
 * It was created to make it easier to create sprite animations with dynamic frame lengths in Unity, as it is very tedious and time consuming to do manually.
     
@@ -30,8 +31,6 @@ Selecting "Show Frame Data" will show where each frame should be located in rega
 																												     	    
 Typically .ase files contain loops. The program assumes that you want to create AnimationClips of with the same names as these loops, as this generally is how the animation is first created. However, since it goes through the existing AnimationClips first instead, it will not import the animation if the .ase file does not contain a loop of the same name.
 
-I haven't programmed the capability of adding AnimationClips using .ase animation data, so you'll have to first create a dummy Animation for each GameObject if you want to use this program. Sorry!
-
-Note: If you want to program that yourself, go ahead and program the method called "createClips()". Also, in "onGUI()", make sure to change the variable "update" to enable that method!
+I haven't programmed the capability of adding AnimationClips using .ase animation data, so you'll have to first create a dummy Animation for each GameObject if you want to use this program. Sorry! *Note*: If you want to program that yourself, go ahead and implement the method called `createClips()`. Also, in `onGUI()`, make sure to change the variable `update` to enable that method!
 
 [Back](../index.md)
