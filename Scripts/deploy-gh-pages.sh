@@ -2,11 +2,12 @@
 
 # make a commit on gh-pages branch and push to deploy
 cd ..
-git clone --depth=50 --branch=gh-pages https://github.com/UVASGD/sgd-docs.git sgd-docs-ghp
+git clone --depth=50 --branch=gh-pages "https://${GH_REF}" sgd-docs-ghp
 rsync -avm --include='*.html' \
 	--include '*.png' \
 	--include '*.jpg' \
 	--include '*.css' \
+	--include '*.js' \
 	--include '*.ico' \
 	--filter='hide,! */' sgd-docs/ sgd-docs-ghp
 cd sgd-docs-ghp
