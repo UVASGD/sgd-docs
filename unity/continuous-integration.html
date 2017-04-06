@@ -7,10 +7,9 @@
   <title>Unity: Continuous Integration with Travis CI</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="../modest.css" type="text/css" />
-  <link href="../favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
-<h1 id="unity-continuous-integration-with-travis-ci">Unity: Continuous Integration with Travis CI</h1>
+<p>----includes:- <link href="../favicon.ico" rel="icon" type="image/x-icon" />---# Unity: Continuous Integration with Travis CI</p>
 <p>This article explains how to set up a <a href="https://unity3d.com/">Unity</a> project hosted on <a href="https://github.com/">GitHub</a> with <a href="https://travis-ci.org/">Travis CI</a> so that Travis can run unit tests as well as make builds and upload them to a dedicated server. An example repository with all the steps completed can be <a href="https://github.com/SebastianJay/unity-ci-test">found here</a>.</p>
 <h3 id="an-aside-on-unity-cloud-build">An aside on Unity Cloud Build</h3>
 <p>This tutorial assumes some proficiency with <a href="https://en.wikibooks.org/wiki/Bash_Shell_Scripting">Bash scripting</a> and <a href="https://docs.travis-ci.com/user/for-beginners">Travis configuration</a>. This approach offers the ability to customize your build configuration (for example, if your project is a web app, you can conceivably deploy it automatically), but if you'd like a simple setup through a web interface it's worth checking out <a href="https://unity3d.com/services/cloud-build">Unity Cloud Build</a>. It offers the ability to run tests as well as make and share builds; <strong>it's recommended that you start out with Cloud Build before deciding if you need a more sophisticated setup.</strong></p>
