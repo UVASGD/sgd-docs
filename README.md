@@ -5,6 +5,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 * [Unity](unity/index.md)
 * [Aseprite](aseprite/index.md) 
 * [Resources for Jammers](jams/index.md)
+* [GDC Write-ups](gdc/index.md)
 * [UVa Specific Material](uva/index.md)
 
 ### Contributing
