@@ -42,7 +42,7 @@ Once you're in Unity, find your way to the Editor settings in Project Settings. 
 
 Once you've done this, your project is ready to go! The `.gitignore` file should ignore everything that Unity autogenerates, and there shouldn't be nearly as many binary files.
 
-## Binary Files to Text files
+## Binary Files to Text Files
 
 But why are binary files bad? Well, for one, binary files cannot be merged together at all. Git is great and will often merge together text files automatically, assuming that the two users did not edit the same lines. However, there is no way for Git to tell whether or not two different users have edited separate parts of a binary file, due to the structure of these files.
 
