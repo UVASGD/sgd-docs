@@ -1,6 +1,6 @@
-# Topics in Aseprite
+# Aseprite
 
-Welcome to the topics in Asesprite wiki! Artists will use this page to catalogue useful tips and tools for our Aseprite tool.
+Welcome to the Asesprite wiki! Artists will use this page to catalogue useful tips and tools for our Aseprite tool.
 
 First and foremost, follow the first link below to download Aseprite.
 
