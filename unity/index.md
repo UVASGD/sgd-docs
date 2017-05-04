@@ -2,13 +2,11 @@
 
 Hello! Welcome to the Unity subwiki. This space is for programmers and designers to share their experience and tips in the Unity Engine.
 
-## Topics
-
 * [Continuous Integration with Travis CI](continuous-integration.md)
 * [Unit Testing](unit-testing.md)
 * [Photon Unity Networking](photon.md)
 
-## Installing
+## Installing Unity
 
 First things first: if you want to use Unity, you should probably go to their [website](https://unity3d.com/). In general, we suggest the free [personal version](https://store.unity.com/download?ref=personal). Both of these links will detect if your OS is Windows or Mac.
 
