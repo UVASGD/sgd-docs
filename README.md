@@ -15,6 +15,7 @@ If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](ht
 * Content files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
 * If the Markdown doc links to internal images, add the image files to the repo. Images should be `.png` or `.jpg`.
 * If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; the script will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
+* `For all code`, please upload files through Gist by going to [Gist](https://gist.github.com/), name it, add the script, and Create Secret Gist. 
 * Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
 
 If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
