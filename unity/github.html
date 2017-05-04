@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Using GitHub with Unity</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../modest.css" type="text/css" />
+  <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<h1 id="using-github-with-unity">Using GitHub with Unity</h1>
+<p>This article discusses how to effectively use <a href="https://github.com">GitHub</a> with <a href="https://unity3d.com/">Unity</a> to prevent as many headaches as possible.</p>
+<h2 id="initial-setup">Initial Setup</h2>
+<p>So, you're trying to use Unity with Git/GitHub?</p>
+<p>If you've never tried before, it's usually a pain. Unity uses plenty of <a href="https://en.wikipedia.org/wiki/Binary_file">binary files</a> by default, which cannot be merged together by Git without a conflict. Luckily, Unity has some convenient options that cause most of these binary files to instead be written as text files, which can be merged! Additionally, it's very important to acquire a functioning <code>.gitignore</code> file, in order to avoid committing the thousands of files that Unity autogenerates. Let's talk about these two things!</p>
+<h2 id="gitignore"><code>.gitignore</code></h2>
+<p>The first thing you'll need to do is setup your repository. If you're confused about how to setup a repository, go ahead and check out the wiki article on GitHub <a href="">here</a>.</p>
+<p>Before you start committing your Unity project into the repository, it's pretty important to first get a functioning <code>.gitignore</code> file. Luckily, GitHub actually has a built in Unity <code>.gitignore</code>, which is located in a dropdown menu on repository creation!</p>
+<p>However, if your project folder is nested inside the repository folder (such that your project hierarchy looks like <code>/Repository/UnityProject/Assets/...</code>), you'll need to make a few edits to the given <code>.gitignore</code>. Below, I've provided a link to the basic Unity <code>.gitignore</code> and the edited Unity <code>.gitignore</code>, so you can see the differences (and so you can download and use the edited version easily).</p>
+<h3 id="basic-unity-.gitignore">Basic Unity <code>.gitignore</code></h3>
+<p><a href="https://gist.github.com/ferociouself/f0baf721090ca7a6cbcc4ced3f27ba3d">Base Unity .gitignore</a></p>
+<p>This is the basic Unity <code>.gitignore</code> file. However, there are some problems...</p>
+<h3 id="edited-unity-.gitignore">Edited Unity <code>.gitignore</code></h3>
+<p><a href="https://gist.github.com/ferociouself/b2d7b6e58092afec275f3f8ed59762d1">Edited Unity .gitignore</a></p>
+<p>This is the edited version of the Unity <code>.gitignore</code> file. As you can see, all that I've added is the stars in front of the various directory pointers, which allows the <code>.gitignore</code> to successfully traverse down to your files.</p>
+<p>There may be some other changes you need to make to the <code>.gitignore</code>, depending on your specific project, but the provided edited version of the <code>.gitignore</code> should satisfy most of your project cleanliness needs.</p>
+<p>It should be noted that if you have your base Unity folder set as the repository folder itself (such that your project hierarchy looks like <code>/repository_name/Assets/...</code>), then you can just use the basic Unity <code>.gitignore</code>. However, for readability purposes and ease of use, it might make sense to separate the repository folder from the Unity folder itself (for example, if you want to provide a folder for 3D models to be placed, in preparation for proper importing). It's totally up to you!</p>
+<h2 id="after-the-.gitignore">After the <code>.gitignore</code></h2>
+<p>Now that you have your <code>.gitignore</code> file in place and committed to the repository, you can set up your Unity project! Go ahead and clone the repository to your computer through whatever means you are comfortable with.</p>
+<p>Next, we need to create the project. Go ahead and create the project in Unity, and make sure that the project is being created in your repository folder.</p>
+<p>Once you're in Unity, find your way to the Editor settings in Project Settings. On my Mac, the path to this option is <code>Edit -&gt; Project Settings -&gt; Editor</code>. Once you're here, you'll notice that the Inspector now shows a bunch of dropdown options. There are two options you'll want to change; <strong>Version Control</strong> and <strong>Asset Serialization</strong>. <strong>Version Control</strong> should be set to <em>Visible Meta Files</em>, and <strong>Asset Serialization</strong> should be set to <em>Force Text</em>. More on this later.</p>
+<p>Once you've done this, your project is ready to go! The <code>.gitignore</code> file should ignore everything that Unity autogenerates, and there shouldn't be nearly as many binary files.</p>
+<h2 id="binary-files-to-text-files">Binary Files to Text Files</h2>
+<p>But why are binary files bad? Well, for one, binary files cannot be merged together at all. Git is great and will often merge together text files automatically, assuming that the two users did not edit the same lines. However, there is no way for Git to tell whether or not two different users have edited separate parts of a binary file, due to the structure of these files.</p>
+<p>This most often comes up with scene files in Unity (denoted with the .unity extension). If two users were to work in one scene, such as your main scene, at the same time, then a merge conflict would occur. With binary files, one user will ALWAYS lose their changes; there's just no way around this. With text files, there is a possibility of recovery.</p>
+<h2 id="dealing-with-conflicts">Dealing with Conflicts</h2>
+<p>However, this possibility is not a certainty. Unity does a lot of work behind the scenes to create these files, and as such, changes that seem like they shouldn't conflict might end up conflicting. So, what should you do when they do conflict?</p>
+<p>There are two options: manually merge the files together, or choose one file to move forward with. With the first option, is it theoretically possible to keep both user's changes. However, especially with Unity generated text files, it may be extremely difficult or even impossible to understand what the various changes actually mean. If you're still determined to get this to work, go ahead and check out the article on merge conflicts in the main GitHub wiki heading for more information on manually merging.</p>
+<p>In the vast majority of merge conflicts with Unity, you'll likely want to move forward with just one item. This should again be discussed under the GitHub wiki, but I will also quickly discuss it here for your convenience.</p>
+<p>The biggest challenge with doing this will be working with the Git terminal or shell. Don't worry though; it's really not that hard! In fact, here are the 5 commands you'll need.</p>
+<ol style="list-style-type: decimal">
+<li><p><code>git status</code> My first advice would be to run this command to see exactly what is conflicting. The conflicting files will show up in red, and git should tell you exactly what is wrong with them (added by both, deleted by both, added by us, etc.).</p></li>
+<li><p><code>git checkout --ours/theirs path/to/the/file</code> What this command will do is overwrite the file in question with either the file you are pulling in, or the file you are trying to push. The safest option is generally to use the <code>--theirs</code> option; hopefully, you know what changes you made. However, if you don't remember, or if the changes were of too large a scale, go ahead and talk to your team and figure out what the conflicting changes actually are. Most of the time it's not a huge deal, in which case you're free to use the <code>--ours</code> option to overwrite their changes with yours.</p></li>
+</ol>
+<p>Make sure to run this command for every conflicting file.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p><code>git add .</code> This adds all changes detected in the repository to your commit.</p></li>
+<li><p><code>git commit -m &quot;Message Goes Here&quot;</code> This will create the commit with the given message. I usually use &quot;Merge Changes&quot; or &quot;Merge Conflict&quot;, but it's obviously up to you.</p></li>
+<li><p><code>git push</code> This pushes your commit to the GitHub. It's sort of like syncing on GitHub Desktop.</p></li>
+</ol>
+<p>Once you've run all of these commands, go ahead and jump back to the GitHub Desktop client and sync again, just to make sure that everything went through properly.</p>
+<h2 id="aside-meta-files">Aside: Meta Files</h2>
+<p>One other problem you'll run into quite often are <code>.meta</code> files. These files are used by Unity on importing to organize files. They are especially useful on sprites, where they store the data that determines how spritesheets are sliced, how the editor should draw these sprites, etc. Each <code>.meta</code> file contains data on when the file was imported/created, among other things. This means that if these <code>.meta</code> files are generated by different users at different times for the same file, then a merge conflict will occur.</p>
+<p>The biggest problem that will occur with these merge conflicts will come when users commit changes that they don't fully understand. Because these <code>.meta</code> files are text files, Git will allow the users to merge the text manually by adding &gt;&gt;&gt;&gt;&gt;&gt;&gt;HEAD to the file, among other things. This will confuse the heck out of Unity, and will likely break any changes that these <code>.meta</code> files were keeping track of. The solution to this problem is really to just educate your team members about what <code>.meta</code> files are and why they need to actually resolve the conflict by manually merging the files together (or using <code>git checkout</code>).</p>
+<p>One last thing about <code>.meta</code> files; in order to actually create a folder in the repository from Unity, the folder in Unity must have something in it. In other words, Unity will create a <code>.meta</code> file for a folder, but it won't actually create the folder until a file is inside of it. I usually put a dummy file in each of my folders, just to make sure that Unity creates the folder and that it will commit into the repository. Otherwise you'll probably have some merge conflicts at the beginning related to people creating folders of the same name.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>So that's it! Those are really the biggest problems when it comes to using Git/GitHub with Unity. I'm sure there will probably be other problems you encounter along the way, likely related to GitHub. Hopefully you can find an answer either in the GitHub section of our wiki, or online!</p>
+<p><a href="./index.html">Back</a></p>
+</body>
+</html>
