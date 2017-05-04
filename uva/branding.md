@@ -9,22 +9,24 @@ Some general guidelines follow:
 
 ##### Square Logos
 
-![black on alpha](./Logo(black).png)
+![black on alpha](./Logo(blackOnAlpha).png)
 
-![white on alpha](./Logo(white).png)
+![black on white](./Logo(blackOnWhite).png)
 
-![black on white](./Logo(blackNwhite).png)
+![white on alpha](./Logo(whiteOnAlpha).png)
+
+![black on white](./Logo(whiteOnBlack).png)
 
 ##### Long Logo with Title
 
-![black on alpha](./Logo_Title(black).png)
+![black on alpha](./Logo_Title(blackOnAlpha).png)
 
-![white on alpha](./Logo_Title(white).png)
+![black on white](./Logo_Title(blackOnWhite).png)
 
-![black on white](./Logo_Title(blackNwhite).png)
+![white on alpha](./Logo_Title(whiteOnBlack).png)
 
 ##### Facebook
 
-![event banner pic](FBEventBanner(black).png)
+![event banner pic](FBEventBanner(whiteOnBlack).png)
 
 [Back](./index.md)
