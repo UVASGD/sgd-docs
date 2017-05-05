@@ -56,7 +56,7 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [IRRLicht](http://irrlicht.sourceforge.net/)
 * [Project Anarchy](http://www.projectanarchy.com/)
 * [Phaser](http://phaser.io)
-* [Love2D](https://love2d.org/‎)
+* [Love2D](https://love2d.org/)
 * [Gamesonomy](http://www.gamesonomy.com/)
 * [GLBasic](http://www.glbasic.com)
 * [Scratch](https://scratch.mit.edu/)
@@ -160,7 +160,7 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [RPTools](http://www.rptools.net/)
 * [FabLab tools](http://fab.cba.mit.edu/content/tools/)
 
-###Task Management Tools
+### Task Management Tools
 
 ##### Graphical
 
@@ -176,7 +176,7 @@ Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from l
 * [Collabedit](http://collabedit.com/) - text editor / chat hybrid with simple syntax highlighting, easy to share
 * [Workflowy](https://workflowy.com/) - collaborative list editor, useful for organizing tasks into lists and prioritize them
 * [Fargo](http://fargo.io/) - nice outliner / notepad
-* [Overleaf] - collaborative LaTeX writing and publishing
+* [Overleaf](https://www.overleaf.com/) - collaborative LaTeX writing and publishing
 
 ##### Miscellaneous
 
