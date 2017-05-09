@@ -5,6 +5,7 @@ Hello! Welcome to the Unity subwiki. This space is for programmers and designers
 * [Continuous Integration with Travis CI](continuous-integration.md)
 * [Unit Testing](unit-testing.md)
 * [Photon Unity Networking](photon.md)
+* [Unity and GitHub](github.md)
 
 ## Installing Unity
 
