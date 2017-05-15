@@ -14,7 +14,7 @@ If you use [Unity Cloud Build](https://unity3d.com/services/cloud-build), then t
 
 ## How to write tests
 
-The option to create an editor test is listed under the Asset creation series of dropdowns (in Unity, go to _Assets_, then _Create_, then _Testing_, then _Editor Test C# Script_). Typically these test files can be grouped under the same subdirectory of a Scripts folder. The template that is used for generating an editor test contains a trivial unit test as an example. Unity adapts the [NUnit framework (version 2.6.4))](http://www.nunit.org/), which includes several assertion utilities.
+The option to create an editor test is listed under the Asset creation series of dropdowns (in Unity, go to _Assets_, then _Create_, then _Testing_, then _Editor Test C# Script_). Typically these test files can be grouped under the same subdirectory of a Scripts folder. The template that is used for generating an editor test contains a trivial unit test as an example. Unity adapts the [NUnit framework (version 2.6.4)](http://www.nunit.org/)), which includes several assertion utilities.
 
 At this point it is worth asking **what exactly should be tested**. Games are different from other software projects in a number of ways; one difference is the continuous feedback loop that a game provides which is difficult to simulate in code. Unity's testing framework is not yet mature, so refactoring code that's dependent on this loop such that it's amenable to testing can be more trouble than it's worth. However, there can be parts of your code which make more sense to test, such as:
 
@@ -70,7 +70,7 @@ This example is straightforward, but in some cases we may need some common code 
 
 ### Working with the Unity framework
 
-Now let's bring in Unity-specific material. As noted before, it is difficult to have tests simulate gameplay scenarios such as objects colliding or the player clicking on a button (this would in theory be covered by [integration tests](https://en.wikipedia.org/wiki/Integration_testing), which Unity does not have), but we can have tests check if certain pieces of collision or UI behavior are correct, among other things.
+Now let's bring in Unity-specific material. As noted before, it is difficult to have tests simulate gameplay scenarios such as objects colliding or the player clicking on a button (this would in theory be covered by [integration tests](https://en.wikipedia.org/wiki/Integration_testing), which Unity does not yet natively support), but we can have tests check if certain pieces of collision or UI behavior are correct, among other things.
 
 One starting point is verifying initial conditions of a `GameObject` and its `MonoBehaviour`. Suppose we have a behavior defined as follows:
 
@@ -98,7 +98,7 @@ public void TestObservePlayerFindsPlayerObject() {
 }
 ```
 
-If we run this test, it should fail, because the `Start` method was never called in `ObservePlayer`.  Editor tests have no native way of controlling the `GameObject` lifecycle (i.e. calling the various methods associated with creating, updating, and deleting an object); however, we can code around that with some [C# extension methods](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/extension-methods) that utilize [reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).
+If we run this test, it should fail, because the `Start` method was never called in `ObservePlayer`.  Editor tests have no native way of controlling the `GameObject` lifecycle (i.e. calling the various methods associated with creating, updating, and deleting objects); however, we can code around that with some [C# extension methods](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/extension-methods) that utilize [reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).
 
 See [TestHelper.cs](https://github.com/SebastianJay/unity-ci-test/blob/master/UnityProject/Assets/Scripts/Editor/TestHelper.cs) for a simple way to manually invoke the `GameObject` lifecycle methods. If we include that script in our test assembly, and change the `AddComponent` line in the above test to:
 
