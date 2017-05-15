@@ -10,19 +10,30 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### Contributing
 
-If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). Please fork the `master` branch (or make a separate branch if you're a collaborator), add more content in the form of [Markdown documents](#markdown-conversion-build), and submit a pull request. Some scripts will deploy your contributions to GitHub pages automatically. The `gh-pages` branch should only have HTML generated from the build system, whereas `master` should only have Markdown; therefore, the two branches should be kept independent of each other (i.e. do not merge them). Some formatting rules:
+If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). You may contribute by submitting changes in the form of [Markdown documents](#markdown-conversion-build), and these changes will reflect on GitHub Pages automatically.
 
-* Content files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
+* SGD officers or directors: you may push minor changes directly to `master`. For new content, please create a separate branch and submit a pull request.
+* All other collaborators: please fork the repository, add your changes, and then submit a pull request. The request shall be reviewed by SGD's Head of Directors ([Jackson Ekis](https://github.com/ferociouself)) or Vice President ([Zachary Danz](https://github.com/zsd4yr)).
+
+Before starting any new work, please review the following rules:
+
+* Do not push updates to the `gh-pages` branch; it will be updated automatically on changes to `master`.
+* Asset files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
 * If the Markdown doc links to internal images, add the image files to the repo. Images should be `.png` or `.jpg`.
-* If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; the script will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
-* `For all code`, please upload files through Gist by going to [Gist](https://gist.github.com/), name it, add the script, and Create Secret Gist. 
+* If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; build scripts will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
+* If the Markdown doc involves code snippets:
+    * If the code is standalone, please upload files through [Gist](https://gist.github.com/) (name and add the scripts, and Create Secret Gist). Link the Markdown doc to the Gist.
+    * If the code fits within the context of a GitHub project, then link the Markdown doc to the file on GitHub.
+    * If the code is used for explanatory purposes in a tutorial (and is not very long), then embed it inline with the Markdown.
 * Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
 
 If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
 
-* To run `Scripts/md-to-html.sh`, [Pandoc](#markdown-conversion) needs to be installed and added to the PATH.
+* To run `Scripts/md-to-html.sh`, [Pandoc](#markdown-conversion-build) needs to be installed and added to the PATH.
 * To run Bash scripts on Windows, use the [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), [Cygwin](https://www.cygwin.com/), [MinGW](http://www.mingw.org/), or [Git Shell](https://desktop.github.com/).
-* The HTML files should be gitignored, but in any case, do not upload them to `master`.
+* The HTML files should be gitignored, but in any case, do not push them to `master`.
+
+Your support on this project is much appreciated! Feel free to reach out to the Head of Directors or Vice President (noted above) if you have any questions or concerns.
 
 ### Markdown Conversion [![Build](https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master)](https://travis-ci.org/UVASGD/sgd-docs)
 
