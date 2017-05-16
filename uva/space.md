@@ -87,4 +87,4 @@ Make sure you're an Event Coordinator on our @UVA page. Then, just go by the 4th
 * Select your Status and School
 * Finally, click "Submit my Booking"
 
-[Back](./index.md)
+[Back](../README.md)

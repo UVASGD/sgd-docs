@@ -6,7 +6,18 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 * [Aseprite](aseprite/index.md) 
 * [Resources for Jammers](jams/index.md)
 * [GDC Write-ups](gdc/index.md)
-* [UVa Specific Material](uva/index.md)
+
+### UVa Specific Material
+
+##### Club Documents
+
+* [Constitution](uva/constitution.md)
+* [Constitution in PDF form](uva/constitution.pdf)
+* [Branding](uva/branding.md)
+
+##### Useful Functions
+
+* [Booking Space](uva/space.md)
 
 ### Contributing
 
