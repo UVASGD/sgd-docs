@@ -2,6 +2,7 @@
 
 Hello! Welcome to the Unity subwiki. This space is for programmers and designers to share their experience and tips in the Unity Engine.
 
+* [Free Unity Assets Mega List](free-assets.md)
 * [Continuous Integration with Travis CI](continuous-integration.md)
 * [Unit Testing](unit-testing.md)
 * [Photon Unity Networking](photon.md)
