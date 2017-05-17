@@ -2,20 +2,22 @@
 
 Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](http://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
 
+##### Topics
+
 * [Unity](unity/index.md)
 * [Aseprite](aseprite/index.md) 
 * [Resources for Jammers](jams/index.md)
 * [GDC Write-ups](gdc/index.md)
 
-### UVa Specific Material
+### UVA Specific Material
 
-##### Club Documents
+##### SGD Club Documents
 
 * [Constitution](uva/constitution.md)
 * [Constitution in PDF form](uva/constitution.pdf)
 * [Branding](uva/branding.md)
 
-##### Useful Functions
+##### Useful UVA Functions
 
 * [Booking Space](uva/space.md)
 
@@ -23,11 +25,11 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). Please fork the `master` branch (or make a separate branch if you're a collaborator), add more content in the form of [Markdown documents](#markdown-conversion-build), and submit a pull request. Some scripts will deploy your contributions to GitHub pages automatically. The `gh-pages` branch should only have HTML generated from the build system, whereas `master` should only have Markdown; therefore, the two branches should be kept independent of each other (i.e. do not merge them). Some formatting rules:
 
-* Content files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
-* If the Markdown doc links to internal images, add the image files to the repo. Images should be `.png` or `.jpg`.
-* If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; the script will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
-* `For all code`, please upload files through Gist by going to [Gist](https://gist.github.com/), name it, add the script, and Create Secret Gist. 
-* Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
+1. Content files like CSS and images should be uploaded to `master`; from there they will be copied to `gh-pages` automatically. 
+2. If the Markdown doc links to internal images, add the image files to the repo. Images should be `.png` or `.jpg`.
+3. If the Markdown doc links to internal text files, use the `.md` extension in the Markdown hyperlink; the script will convert that link to `.html` for the generated HTML files automatically. (NOTE: this makes linking external `.md` files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like `#` at the end of the link, a la `.md#`)
+4. `For all code`, please upload files through Gist by going to [Gist](https://gist.github.com/), name it, add the script, and Create Secret Gist. 
+5. Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
 
 If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
 
