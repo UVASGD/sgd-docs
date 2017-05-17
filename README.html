@@ -12,32 +12,33 @@
 <body>
 <h1 id="sgd-docs">SGD Docs</h1>
 <p>Documents, tutorials, and tips designed to help members of <a href="http://sgd.cs.virginia.edu/">Student Game Developers at UVa</a> and any other game developers! Topics will be added as the club learns about new tools and technologies.</p>
+<h5 id="topics">Topics</h5>
 <ul>
 <li><a href="unity/index.html">Unity</a></li>
 <li><a href="aseprite/index.html">Aseprite</a></li>
 <li><a href="jams/index.html">Resources for Jammers</a></li>
 <li><a href="gdc/index.html">GDC Write-ups</a></li>
 </ul>
-<h3 id="uva-specific-material">UVa Specific Material</h3>
-<h5 id="club-documents">Club Documents</h5>
+<h3 id="uva-specific-material">UVA Specific Material</h3>
+<h5 id="sgd-club-documents">SGD Club Documents</h5>
 <ul>
 <li><a href="uva/constitution.html">Constitution</a></li>
 <li><a href="uva/constitution.pdf">Constitution in PDF form</a></li>
 <li><a href="uva/branding.html">Branding</a></li>
 </ul>
-<h5 id="useful-functions">Useful Functions</h5>
+<h5 id="useful-uva-functions">Useful UVA Functions</h5>
 <ul>
 <li><a href="uva/space.html">Booking Space</a></li>
 </ul>
 <h3 id="contributing">Contributing</h3>
 <p>If you arrived via the GitHub Pages interface, <a href="https://github.com/UVASGD/sgd-docs">the repo is hosted on GitHub</a>. Please fork the <code>master</code> branch (or make a separate branch if you're a collaborator), add more content in the form of <a href="#markdown-conversion-build">Markdown documents</a>, and submit a pull request. Some scripts will deploy your contributions to GitHub pages automatically. The <code>gh-pages</code> branch should only have HTML generated from the build system, whereas <code>master</code> should only have Markdown; therefore, the two branches should be kept independent of each other (i.e. do not merge them). Some formatting rules:</p>
-<ul>
+<ol style="list-style-type: decimal">
 <li>Content files like CSS and images should be uploaded to <code>master</code>; from there they will be copied to <code>gh-pages</code> automatically.</li>
 <li>If the Markdown doc links to internal images, add the image files to the repo. Images should be <code>.png</code> or <code>.jpg</code>.</li>
 <li>If the Markdown doc links to internal text files, use the <code>.md</code> extension in the Markdown hyperlink; the script will convert that link to <code>.html</code> for the generated HTML files automatically. (NOTE: this makes linking external <code>.md</code> files tricky, as the script will attempt to convert those. If you need to do this, add an auxiliary character like <code>#</code> at the end of the link, a la <code>.md#</code>)</li>
 <li><code>For all code</code>, please upload files through Gist by going to <a href="https://gist.github.com/">Gist</a>, name it, add the script, and Create Secret Gist.</li>
 <li>Include a <em>Back</em> link that steps up the document tree hierarchy at the end of each document.</li>
-</ul>
+</ol>
 <p>If you would like to preview the HTML files locally before pushing the Markdown documents, run <code>Scripts/md-to-html.sh</code> from a shell whose current directory is the repo root directory. Some tips:</p>
 <ul>
 <li>To run <code>Scripts/md-to-html.sh</code>, <a href="#markdown-conversion">Pandoc</a> needs to be installed and added to the PATH.</li>
