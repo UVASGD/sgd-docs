@@ -3,7 +3,7 @@
 * The original form of this list is maintained by the Procedural Worlds team, authors of [GAIA](http://www.procedural-worlds.com/gaia/) and [GeNa](http://www.procedural-worlds.com/gena/) at:
 [http://www.procedural-worlds.com/blog/best-free-unity-assets-categorised-mega-list/](http://www.procedural-worlds.com/blog/best-free-unity-assets-categorised-mega-list/). The duplication of that list here is simply to ensure its preservation. This copy of that list was curated by Zach Danz in the Summer of 2017
 
-### AI:
+### AI
 
 * [Behavior Bricks](https://www.assetstore.unity3d.com/#!/content/74816?aid=1101lSqC) : Behavior Bricks is a state-of-the-art engine for Behavior Trees (BTs) along with an intuitive visual editor.
 * [Crystal AI](https://github.com/ThelDoctor/CrystalAI) : A Utility based AI for C# and Unity.
@@ -13,11 +13,11 @@
 * [RAIN AI for Unity](https://www.assetstore.unity3d.com/#!/content/23569?aid=1101lSqC) : An incredibly powerful path finding and behavior tree based AI plugin for Unity.
 * [Unity Movement AI](https://github.com/antonpantev/unity-movement-ai) : A library of steering behaviors to help your NPCs move around your game.
  
-### Analytics:
+### Analytics
 
 * [Google Analytics Plugin](https://github.com/googleanalytics/google-analytics-plugin-for-unity) : Allows game developers to easily implement Google Analytics in their Unity games on all platforms.
  
-### Animation:
+### Animation
 
 * [Animation Baker](https://www.assetstore.unity3d.com/#!/content/18217?aid=1101lSqC) : Converts Mecanim animations back to legacy animations.
 * [Animated Horse](https://www.assetstore.unity3d.com/#!/content/16687?aid=1101lSqC) : Animated horse.
@@ -28,18 +28,18 @@
 * [Melee Axe Pack](https://www.assetstore.unity3d.com/#!/content/35320?aid=1101lSqC) : 55 mixamo animations for axe-wielding, skull bashing, dragon slaying barbaric types.
 * [TakeDown Animations](https://www.assetstore.unity3d.com/#!/content/19072?aid=1101lSqC) : 12 takedowns animations package.
  
-### Audio:
+### Audio
 
 * [InAudio 2](https://www.assetstore.unity3d.com/#!/content/15609?aid=1101lSqC) : Add great audio to your game in seconds with the new layered music player with crossfading and gap-less transitions.
 * [Reaktion](https://github.com/keijiro/Reaktion) : An audio reactive animation toolkit for Unity.
  
-### Cameras:
+### Cameras
 
 * [EZ Camera Shake](https://www.assetstore.unity3d.com/#!/content/33148?aid=1101lSqC) : A versatile implementation of procedural camera-shaking animation.
 * [GhostFreeRoamCamera](https://www.assetstore.unity3d.com/#!/content/19250?aid=1101lSqC) : Free flying ghost roaming camera, in a FPS style!
 * [RTS camera](https://www.assetstore.unity3d.com/#!/content/43321?aid=1101lSqC) : Best free camera asset on the Unity asset store.
  
-### Controllers:
+### Controllers
 
 * [Base Helicopter Controller](https://www.assetstore.unity3d.com/#!/content/40107?aid=1101lSqC) : Helicopter controller with realistic physics.
 * [Helicopter Pack](https://www.assetstore.unity3d.com/#!/content/16474?aid=1101lSqC) : Cool helicopter & physics systems
@@ -47,16 +47,16 @@
 * [3rd Person Controller + Fly Mode](https://www.assetstore.unity3d.com/#!/content/28647?aid=1101lSqC) : This package provides a basic setup for a 3rd person player controller. Includes scripts for the player movements, camera orbit and a Mecanim animator controller, containing basic locomotion (walk, run, sprint, aim & strafe, and also an extra fly mode).
  
 
-### Database:
+### Database
 
 * [SQLite4Unity3d](https://github.com/codecoding/SQLite4Unity3d) : SQL Lite for Unity 3d.
  
-### Debugging:
+### Debugging
 
 * [Console Enhanced Free](https://www.assetstore.unity3d.com/#!/content/42381?aid=1101lSqC) : Console Enhanced Free is an improved editor console for Unity.
 * [Debug Panel](https://www.assetstore.unity3d.com/#!/content/30739?aid=1101lSqC) : Extended Unity console.
  
-### Development / Testing:
+### Development / Testing
 
 * [Log Viewer](https://www.assetstore.unity3d.com/#!/content/12047?aid=1101lSqC) : Check editor console logs inside the game itself even on mobile.
 * [Resource Checker](https://www.assetstore.unity3d.com/#!/content/3224?aid=1101lSqC) : Shows how much memory textures take to reduce memory usage.
@@ -64,16 +64,16 @@
 * [Unity Test Tools](https://www.assetstore.unity3d.com/#!/content/13802?aid=1101lSqC) : Test your game with unit test framework, integration test framework, assertion component, ide, batch and test mode runners.
 * [VSCode](https://www.assetstore.unity3d.com/#!/content/45320?aid=1101lSqC) : Seamless support for Microsoft Visual Studio Code in Unity. 
  
-### Editor Extensions:
+### Editor Extensions
 
 * [Inspector Gadgets Lite](https://www.assetstore.unity3d.com/#!/content/82896?aid=1101lSqC) : Streamline your editor experience with this enhanced Transform Inspector.
 * [Weaver Lite](https://www.assetstore.unity3d.com/#!/content/60305?aid=1101lSqC) : Directly reference assets and layers in your code without any magic strings and generate procedural assets in the Unity Editor.
  
-### Fog:
+### Fog
 
 * [Screen Space Multiple Scattering](https://github.com/OCASM/SSMS) : This is a replacement for Unity Fog - it is truly stunning!
  
-### Frameworks:
+### Frameworks
 
 * [Entitas](https://github.com/sschmid/Entitas-CSharp) : The entity component framework for Unity. Entities, pools, groups, observers.
 * [Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) : A wrapper for Steamworks recommended by the community.
@@ -86,11 +86,11 @@
 * [Weaver Lite](https://www.assetstore.unity3d.com/#!/content/60305?aid=1101lSqC) : Directly reference assets and layers in your code without any magic strings and generate procedural assets in the Unity Editor.
 * [Zenject](https://www.assetstore.unity3d.com/#!/content/17758?aid=1101lSqC) : Awesome looking dependency injection / IOC framework.
  
-### Game Toolkit:
+### Game Toolkit
 
 * [Fungus](https://www.assetstore.unity3d.com/#!/content/34184?aid=1101lSqC) : Easy, branching story editor. Was used in a Unity presentation some time ago.
  
-### Input Management:
+### Input Management
 
 * [InputBinder](https://github.com/RyanNielson/InputBinder) : Makes it easy for components to respond to axis, button, and key input events.
 * [Lean Touch](https://www.assetstore.unity3d.com/#!/content/30111?aid=1101lSqC) : Multi-platform input library for gestures (both touch and mouse).
@@ -98,17 +98,17 @@
 * [TouchKit](https://github.com/prime31/TouchKit) : TouchKit aims to make touch handling in Unity more sane.
 * [TouchScript](https://www.assetstore.unity3d.com/#!/content/7394?aid=1101lSqC) : TouchScript is a multi-touch library for Unity. Makes handling complex gesture interactions on touch surfaces easier.
  
-### Inventory Management:
+### Inventory Management
 
 * [Inventory System ](https://www.assetstore.unity3d.com/#!/content/10384?aid=1101lSqC): The Inventory System & Editor Extension is a complete Inventory, Item and Character Sheet solution providing loads of neatly organized and documented parameters allowing full customization of UI as well as gameplay features with little to no coding.
  
-### Languages:
+### Languages
 
 * [Arcadia](https://github.com/arcadia-unity/Arcadia) : Clojure for Unity.
 * [MoonSharp](https://www.assetstore.unity3d.com/#!/content/33776?aid=1101lSqC) : Community recommended Lua interpreter written in C# for maximum compatibility.
 * [UniLua](https://github.com/xebecnan/UniLua) : Implementation of LUA for Unity.
  
-### Lighting:
+### Lighting
 
 * [Cinema Themes 2 - Color Grading LUTS Library](https://www.assetstore.unity3d.com/#!/content/20394?aid=1101lSqC) : Awesome set of free LUTS for your projects.
 * [Day and Night Cycle with Scattering And Movement](https://www.assetstore.unity3d.com/#!/content/27024?aid=1101lSqC) : A simple day and night cycle system with moving clouds.
@@ -117,11 +117,11 @@
 * [SpriteLights](https://www.assetstore.unity3d.com/#!/content/46409?aid=1101lSqC) : Render thousands of Physically Based lights in a single batch.
 * [True Volumetric Lights (Open Source)](http://forum.unity3d.com/threads/true-volumetric-lights-now-open-source.390818/) : Its expensive perf wise - but the effect is just beautiful!
  
-### Localisation:
+### Localization
 
 * [Lean Localization](https://www.assetstore.unity3d.com/#!/content/28504?aid=1101lSqC) : Simplifies localization.
  
-### Meshes:
+### Meshes
 
 * [Simple Geometry Painter](https://gist.github.com/phosphoer/8cccb00e20d9892af1438a795779bee0) : A simple geometry painter
 * [Maze Generator](https://www.assetstore.unity3d.com/#!/content/38689?aid=1101lSqC) : Generates complex non-cycled mazes with different algorithms.
@@ -129,7 +129,7 @@
 * [RealTime Painting](https://www.assetstore.unity3d.com/#!/content/33506?aid=1101lSqC) : Real time mesh painting
 * [Vertex Painter](https://github.com/slipster216/VertexPaint) : Free mesh painting asset from an industry pro
  
-### Music & Sound:
+### Music & Sound
 
 * [Free Music Archive](http://freemusicarchive.org/) : It's not just free music; it's good music.
 * [FreeSound.org](http://www.freesound.org/) : Awesome searchable sound library.
@@ -142,36 +142,36 @@
 * [Sonniss GDC 2017](http://www.sonniss.com/gameaudiogdc2017/) : Amazing sound sampler packs from Sonniss for GDC 2017.
 * [Unreleased Game Music Pack](https://www.assetstore.unity3d.com/#!/content/62626?aid=1101lSqC) : Awesome music pack from a game that never got released.
  
-### Networking:
+### Networking
 
 * [Photon Unity Networking Free](https://www.assetstore.unity3d.com/#!/content/1786?aid=1101lSqC) : Easily add multiplayer to your games and launch them globally with the included FREE Photon Cloud plan.
 * [Unity HTTP](https://github.com/andyburke/UnityHTTP) : A TcpClient-based HTTP library for Unity.
  
-### Noise:
+### Noise
 
 * [LibNoise](https://github.com/ricardojmendez/LibNoise.Unity) : A port of the LibNoise framework for Unity. Great if you are doing procedural content generation.
  
-### Particle Systems:
+### Particle Systems
 
 * [Elemental Free](https://www.assetstore.unity3d.com/#!/content/11158?aid=1101lSqC) : 96 fantastic Shuriken particles that are categorized to 8 kinds of element.
 * [Fire and Spell Effects](https://www.assetstore.unity3d.com/#!/content/36825?aid=1101lSqC) : Flamethrower, fireballs and meteor swarms and more.
 * [KY Magic Effects Free](https://www.assetstore.unity3d.com/#!/content/21927?aid=1101lSqC) : This package includes 10 free magic game effects.
 * [Unity Particle Pack](https://www.assetstore.unity3d.com/#!/content/73777?aid=1101lSqC) : Really awesome free particles from Unity.
  
-### Pathfinding:
+### Pathfinding
 
 * [Aron Granbergs A* Pathfinding Project](http://arongranberg.com/astar/download) : One of the best path finding solutions for Unity.
 * [A Star Pathfinding for Unity](https://github.com/sharpaccent/Astar-for-Unity) : A* Pathfinder for Unity. It includes 3 axis path finding and multi-threading.
 * [AStart](https://github.com/MaroMaroO/AStart) : Unity project for Lurendium tutorial about basics of a* pathfinding.
 * [OpenPath](https://github.com/mrzapp/openpath) : An automated, very simple A* path finding package for Unity.
  
-### Pooling:
+### Pooling
 
 * [ObjectPool](https://github.com/UnityPatterns/ObjectPool) : This script reduces garbage collection and therefore jitter by pooling instances.
 * [RecyclerKit](https://github.com/prime31/RecyclerKit) -  An object pooling system that is super easy to use from Prime31.
  
 
-### Post FX / Shaders:
+### Post FX / Shaders
 
 * [Deferred Night Vision](https://www.assetstore.unity3d.com/#!/content/43423?aid=1101lSqC) : AAA quality night vision effect if you're using deferred rendering.
 * [KinoGlitch](https://github.com/keijiro/KinoGlitch) : A collection of glitch video effects.
@@ -190,22 +190,22 @@
 * [Unity 5 Effects](https://github.com/i-saint/Unity5Effects) : Temporal screen space reflections, screen space shadows, screen space boolean, rim light, water surface and caustics, light particles, procedural modelling, metaball, temporal SSAO, mosaic field.
 * [UnityPCSS](https://github.com/TheMasonX/UnityPCSS) : Implementation of NVidia "PCSS" or "Percentage Closer Soft Shadows".
  
-### Roads:
+### Roads
 
 * [EasyRoads3D Free](https://https//www.assetstore.unity3d.com/#!/content/987?aid=1101lSqC) : The free version of what is probably the best roads asset for Unity. Works well with with Gaia terrains.
 * [Simple Modular Street Kit](https://www.assetstore.unity3d.com/#!/content/13811?aid=1101lSqC) : Snap together these assets to create roads in unity.
  
-### Scene & Art Creation:
+### Scene & Art Creation
 
 * [Ikari Vertex Painter](https://www.assetstore.unity3d.com/#!/content/24645?aid=1101lSqC) : Vertex painting on objects
 * [ProBuilder Basic ](https://www.assetstore.unity3d.com/#!/content/11919?aid=1101lSqC): Building prototype levels easily.
 * [UPA Toolkit: Pixel Art Editor](https://www.assetstore.unity3d.com/#!/content/27680?aid=1101lSqC) : Making Pixel Art inside Unity.
  
-### Serialization:
+### Serialization
 
 * [FullSerializer](https://github.com/jacobdufault/fullserializer) : Easy to use and robust JSON serializer that just works.
  
-###Skies:
+###Skies
 
 * [Kode 80 Volumetric Clouds](http://kode80.com/assets/) : Pretty amazing real time volumetric clouds.
 * [8 Ocean HRDI's](http://cgi.tutsplus.com/articles/freebie-8-awesome-ocean-hdris--cg-5684) : A collection of 8 stunning ocean HDRI's for skyboxes.
@@ -213,37 +213,37 @@
 * [Sky5X One](https://www.assetstore.unity3d.com/#!/content/6332?aid=1101lSqC) : A set of five free beautiful sky boxes.
 * [Unity HDRI Pack](https://www.assetstore.unity3d.com/#!/content/72511?aid=1101lSqC) : This is a pack of 7 8192x4096 HDR images shot in different locations around the world.
  
-### Spawning:
+### Spawning
 
 * [Spawner – Free](https://www.assetstore.unity3d.com/#!/content/2704?aid=1101lSqC) : Very easy simple spawner system for unity.
  
-### Terrain:
+### Terrain
 
 * [Generic Terrain Brushes](https://www.assetstore.unity3d.com/#!/content/52974?aid=1101lSqC) : 35 Very handy terrain brushes. Useful for sculpting your terrain or painting textures.
 * [Procedural Cave Generator](https://github.com/AK-Saigyouji/Procedural-Cave-Generator) : Procedurally generate ready to use caves.
 * [Realistic Terrain Collection LITE](https://www.assetstore.unity3d.com/#!/content/47726?aid=1101lSqC) : 5 textured high quality terrains, 6 textures, 2.5km x 2.5km.
  
-### Text:
+### Text
 
 * [TextMesh Pro](https://www.assetstore.unity3d.com/#!/content/84126?aid=1101lSqC) : The best text asset on the store.
  
-### Texture:
+### Texture
 
 * [Free Seamless Textures](https://sites.google.com/site/freeseamlesstextures/home) : Free seamless textures
 * [Teilas Seamless Textures](http://telias.free.fr/textures_menu.html) : More free and categorised textures.
 * [UnityBitmapDrawing](https://github.com/ProtoTurtle/UnityBitmapDrawing) : Bitmap Drawing API extension methods for the Texture2D class.
  
-### Thread Management:
+### Thread Management
 
 * [Thread Ninja - Multi Threaded CoRoutines](https://www.assetstore.unity3d.com/#!/content/15717?aid=1101lSqC) : This asset helps you write multi-thread co-routines.
  
-### Tweening Libraries:
+### Tweening Libraries
 
 * [DOTween (HOTween v2)](https://www.assetstore.unity3d.com/#!/content/27676?aid=1101lSqC) : A very nice tweening library optimised for C# and nicely integrated into Unity.
 * [LeanTween](https://www.assetstore.unity3d.com/#!/content/3595?aid=1101lSqC) :  An efficient tween engine for Unity that offers a many  features. 
 * [iTween **PAID**](https://www.assetstore.unity3d.com/en/#!/content/84) : Tweening for moving 3d objects
 
-### Tutorials (also a great source of free assets): 
+### Tutorials (also a great source of free assets)
 
 * [Adam Exterior Environment](https://www.assetstore.unity3d.com/#!/content/74969?aid=1101lSqC) : The Exterior environment from the Adam demo.
 * [Adventure - Sample Game](https://www.assetstore.unity3d.com/#!/content/76216?aid=1101lSqC) : Explore the makings of a point-and-click adventure game, complete with simple inventory system and data persistence examples with this fully-commented complete project, as used to teach Unite 2016's Training Day.
@@ -253,13 +253,13 @@
 * [Vehicle Tools](https://www.assetstore.unity3d.com/#!/content/83660?aid=1101lSqC) : Sample project tools to rig wheeled vehicles and easily create suspension for physics-based wheel colliders.
 * [2D Platformer](https://www.assetstore.unity3d.com/#!/content/11228?aid=1101lSqC) : Showcasing 2D features a platform shooter demo.
 * [2D Roguelike](https://www.assetstore.unity3d.com/#!/content/29825?aid=1101lSqC) : Learn how to make a 2D Roguelike game.
- 
-### UI:
+
+### UI
 
 * [Unity UI Extensions](https://bitbucket.org/ddreaper/unity-ui-extensions) : Extension project for the new Unity UI system.
 * [NGUI **PAID**](https://www.assetstore.unity3d.com/en/#!/content/2413) : Next Gen UI
  
-### Utilities:
+### Utilities
 
 * [Autosaver](https://www.assetstore.unity3d.com/#!/content/38279?aid=1101lSqC) : Editor extension that allows for auto-saving your work.
 * [BitStrap](https://www.assetstore.unity3d.com/#!/content/51416?aid=1101lSqC) : A bunch of handy utilities that allow you to bootstrap a new Unity project.
@@ -279,7 +279,7 @@
 * [Unity Toolbag](https://github.com/nickgravelyn/unitytoolbag) : A bunch of handy Unity extension utilities. Very handy.
 * [Zone Controller Free](https://www.assetstore.unity3d.com/#!/content/55453?aid=1101lSqC) : Allows you to control the properties of ANY other Unity component at runtime. Create stunning and smooth transition effects on your favorite Unity components with just a few clicks. Very powerful!
  
-### Virtual Reality:
+### Virtual Reality
 
 * [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) : Build virtual reality applications for Android and iOS using the Google VR SDK for Unity.
 * [HoloToolkit-Unity](https://github.com/Microsoft/HoloToolkit-Unity) : A collection of scripts and components to accelerate development of applications targeting Windows Holographic.
@@ -291,22 +291,22 @@
 * [VRTK](https://github.com/thestonefox/VRTK) : Virtual reality scripting toolkit, a collection of useful scripts and prefabs for building VR titles in Unity 5.
 * [VR Samples](https://www.assetstore.unity3d.com/#!/content/51519?aid=1101lSqC) : VR Samples from Unity.
  
-### Visual Scripting:
+### Visual Scripting
 
 * [Behavior Bricks](https://www.assetstore.unity3d.com/#!/content/74816?aid=1101lSqC) : Behavior Bricks is a state-of-the-art engine for Behavior Trees (BTs) along with an intuitive visual editor.
 * [Panda BT Free](https://www.assetstore.unity3d.com/#!/content/33057?aid=1101lSqC) : Panda BT is a script-based Behaviour Tree engine which allows the authoring of complex, scaleable and reusable logic for your game.
 * [uScript Personal Learning Edition](https://www.assetstore.unity3d.com/#!/content/52060?aid=1101lSqC) : uScript is a fully featured visual scripting system developed by industry veterans of award-winning "AAA" games.
  
-### Weather:
+### Weather
 
 * [Olanders Realistic Weather](http://forum.unity3d.com/threads/free-for-the-community-olanders-realistic-weather-for-time-of-day.310180/) : Very high quality weather system from a quality developer.
  
-### 2D Assets:
+### 2D Assets
 
 * [Super Powers Asset Packs](https://github.com/sparklinlabs/superpowers-asset-packs) : Asset packs for medieval, fantasy, ninja, prehistory, space shooters, top down shooters etc.
 * [CraftPix Freebie Assets](https://craftpix.net/freebies/) : Awesome collection of beautiful 2D spritesheets and backgrounds.
  
-### 3D Models:
+### 3D Models
 
 * [Blacksmith](https://www.assetstore.unity3d.com/#!/content/46265?aid=1101lSqC) : A small but quality sample from the Village Exteriors Kit.
 * [Cactus Pack](https://www.assetstore.unity3d.com/#!/content/11547?aid=1101lSqC) : Pack of desert plants and rocks with hand-painted, atlased textures.
