@@ -11,7 +11,81 @@
 </head>
 <body>
 <h1 id="unity-unit-testing">Unity: Unit testing</h1>
-<p>Coming soon.</p>
+<p>This article discusses how to get started with unit testing on a Unity project.</p>
+<h3 id="what-is-unit-testing">What is unit testing?</h3>
+<p><a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a> is a way of ensuring good code quality by isolating small parts or procedures of the code and testing them individually. As a codebase grows large and complex, it can be useful for preventing regressions (bugs) in future iterations of the same code. Unit testing is often harmonious with <a href="https://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a>, which can include processes to run a test suite automatically whenever changes are made to the code and inform you of any breaking changes. See the <a href="continuous-integration.html">continuous integration wiki article</a> for details on how to set that up (or, if you use Cloud Build, see below).</p>
+<h2 id="how-to-run-tests">How to run tests</h2>
+<p>Unity 5 has introduced the <a href="https://docs.unity3d.com/Manual/testing-editortestsrunner.html">Unity Editor Tests Runner</a>, which can be run from within the Unity Editor to produce an overview of results (go to <em>Window</em>, then <em>Editor Tests Runner</em>, then click on the <em>Run All</em> button). Tests can also be run in &quot;headless&quot; mode from the command line, which is particularly useful for scripting and automation.</p>
+<p>If you use <a href="https://unity3d.com/services/cloud-build">Unity Cloud Build</a>, then tests can be run as part of the build. Locate the <em>Cloud Build</em> section of your project online, and then go to <em>Config</em>, then for each target, go to <em>Show Test Options</em>, then <em>Edit Test Options</em>. Check <em>Enabled</em>. In most cases you will want to check <em>Failed Unit Test Fails Build</em> as well (this will prevent Cloud Build from creating the build if unit tests fail -- if the testing suite is well crafted, a failure would indicate a buggy build). Keep the method name field the same. After changing the settings, future builds will have test results as part of their logs (go to that build's <em>Summary</em>, and then <em>Tests</em> is one of the tabs).</p>
+<h2 id="how-to-write-tests">How to write tests</h2>
+<p>The option to create an editor test is listed under the Asset creation series of dropdowns (in Unity, go to <em>Assets</em>, then <em>Create</em>, then <em>Testing</em>, then <em>Editor Test C# Script</em>). Typically these test files can be grouped under the same subdirectory of a Scripts folder. The template that is used for generating an editor test contains a trivial unit test as an example. Unity adapts the <a href="http://www.nunit.org/">NUnit framework (version 2.6.4)</a>), which includes several assertion utilities.</p>
+<p>At this point it is worth asking <strong>what exactly should be tested</strong>. Games are different from other software projects in a number of ways; one difference is the continuous feedback loop that a game provides which is difficult to simulate in code. Unity's testing framework is not yet mature, so refactoring code that's dependent on this loop such that it's amenable to testing can be more trouble than it's worth. However, there can be parts of your code which make more sense to test, such as:</p>
+<ul>
+<li>Custom data structures or algorithms, e.g. inventory or pathfinding</li>
+<li>Game state logic that isn't too involved with <code>MonoBehaviour</code>, e.g. the initial state of an object when it spawns</li>
+<li>Custom event logic, e.g. quest completion triggering a UI element</li>
+</ul>
+<p>Oftentimes these parts of code can be designed as an API with inputs and expected outputs. The unit tests will call these APIs with a set of different inputs and then assert that the resultant output is equivalent to the expected output.</p>
+<h3 id="a-generic-example">A generic example</h3>
+<p>Suppose we have a custom math library with a function that calculates the sum of the first <code>n</code> natural numbers. We define the class and function below.</p>
+<pre><code>public class MyMath {
+    public static int SumNInts(int n) {
+        int sum = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+}</code></pre>
+<p>Now, we can write a few tests for this function to verify it works as expected. We will test with the inputs 5, 1, and -3. Note how each test method has a <code>[Test]</code> attribute.</p>
+<pre><code>using NUnit.Framework;
+
+public class MyMathTest {
+    [Test]
+    public void TestSumNIntsPositive() {
+        int sum = MyMath.SumNInts(5);
+        Assert.AreEqual(15, sum);
+    }
+    
+    [Test]
+    public void TestSumNIntsBase() {
+        int sum = MyMath.SumNInts(1);
+        Assert.AreEqual(1, sum);
+    }
+    
+    [Test]
+    public void TestSumNIntsNegative() {
+        int sum = MyMath.SumNInts(-3);
+        Assert.AreEqual(0, sum);
+    }
+}</code></pre>
+<p>This example is straightforward, but in some cases we may need some common code to set things up before each test. In this case, we can implement another function with <code>[SetUp]</code> (as well as another with <code>[TearDown]</code> if we need to clean things up after each test). Note that in this example, we made a design decision to return 0 if a negative number was passed into our function. We might have chosen instead to throw an exception; this behavior can also be validated through unit testing with other assertions available in NUnit -- see <a href="http://www.nunit.org/index.php?p=docHome&amp;r=2.6.4">the documentation</a> for more details.</p>
+<h3 id="working-with-the-unity-framework">Working with the Unity framework</h3>
+<p>Now let's bring in Unity-specific material. As noted before, it is difficult to have tests simulate gameplay scenarios such as objects colliding or the player clicking on a button (this would in theory be covered by <a href="https://en.wikipedia.org/wiki/Integration_testing">integration tests</a>, which Unity does not yet natively support), but we can have tests check if certain pieces of collision or UI behavior are correct, among other things.</p>
+<p>One starting point is verifying initial conditions of a <code>GameObject</code> and its <code>MonoBehaviour</code>. Suppose we have a behavior defined as follows:</p>
+<pre><code>public class ObservePlayer : MonoBehaviour {
+    public GameObject player;
+    void Start() {
+        this.player = GameObject.FindGameObjectWithTag (&quot;Player&quot;);
+    }
+}</code></pre>
+<p>Let's write a test that validates that the behavior finds the correct object when the scene starts up. We'll start out like this:</p>
+<pre><code>[Test]
+public void TestObservePlayerFindsPlayerObject() {
+    var player = new GameObject();
+    player.tag = &quot;Player&quot;;
+
+    var observer = new GameObject();
+    observer.AddComponent&lt;ObservePlayer&gt;();
+    
+    Assert.AreEqual(observer.player.GetInstanceID(), player.GetInstanceID());
+}</code></pre>
+<p>If we run this test, it should fail, because the <code>Start</code> method was never called in <code>ObservePlayer</code>. Editor tests have no native way of controlling the <code>GameObject</code> lifecycle (i.e. calling the various methods associated with creating, updating, and deleting objects); however, we can code around that with some <a href="https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/extension-methods">C# extension methods</a> that utilize <a href="https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx">reflection</a>.</p>
+<p>See <a href="https://github.com/SebastianJay/unity-ci-test/blob/master/UnityProject/Assets/Scripts/Editor/TestHelper.cs">TestHelper.cs</a> for a simple way to manually invoke the <code>GameObject</code> lifecycle methods. If we include that script in our test assembly, and change the <code>AddComponent</code> line in the above test to:</p>
+<pre><code>observer.AddComponentAndInit&lt;ObservePlayer&gt;();</code></pre>
+<p>Then, <code>Start</code> should be invoked when the component is added, and the test may pass (read on to fix one more pitfall).</p>
+<p>Another issue with editor tests is that they run within the scene that is currently open, rather than an empty scene as we might expect. This means that if we run the above test in a scene where a player object already exists, then it is possible for the test to fail because <code>FindGameObjectWithTag</code> could find that existing player object rather than the one which was created in the test method. We can work around this by opening a blank scene before running any tests. See <a href="https://github.com/SebastianJay/unity-ci-test/blob/master/UnityProject/Assets/Scripts/Editor/TestConfig.cs">TestConfig.cs</a> for a simple way of doing that (just include the script in the test assembly) -- the script will create and open a new blank scene before any tests are run, and then return the editor to the active scene when they are finished. If we use this script, then our test should pass.</p>
+<p>This should be a good starting point for you to begin creating your own tests. It is likely that as your codebase grows larger, your testing framework (i.e. scripts you'll write to simplify matters) will also get slightly more complex. Just remember to stay disciplined -- even though it is decidedly unexciting to write unit tests, they will end up preventing many bugs and saving lots of time in the long run.</p>
 <p><a href="./index.html">Back</a></p>
 </body>
 </html>
