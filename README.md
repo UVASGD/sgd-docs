@@ -11,14 +11,8 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### UVA Specific Material
 
-##### SGD Club Documents
-
-* [Constitution](uva/constitution.md)
-* [Constitution in PDF form](uva/constitution.pdf)
+* [SGD Constitution](uva/constitution.md) and [SGD Constitution in PDF Form](uva/constitution.pdf)
 * [Branding](uva/branding.md)
-
-##### Useful UVA Functions
-
 * [Booking Space](uva/space.md)
 
 ### Contributing
