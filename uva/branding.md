@@ -35,4 +35,4 @@ Some general guidelines follow:
 
 ![banner pic](Logo_Title_AtUVA_whiteOnBlack.png)
 
-[Back](./index.md)
+[Back](../README.md)
