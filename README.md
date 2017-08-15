@@ -5,6 +5,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 ##### Topics
 
 * [Unity](unity/index.md)
+* [Source Control](source/index.md)
 * [Aseprite](aseprite/index.md) 
 * [Resources for Jammers](jams/index.md)
 * [GDC Write-ups](gdc/index.md)
