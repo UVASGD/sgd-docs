@@ -15,7 +15,7 @@ Using a VSC is important to all kinds of developers, from artists and programmer
 
 ### Important Terms and Commands
 
-For the rest of this guide, I'll be talking in terms of Github or Git, which is a single VSC among many. Many of the ideas of Git are shared among others, so this should simply this tutorial without causing too much confusion.
+For the rest of this guide, I'll be talking in terms of Github or Git, which is a single VSC among many. Many of the ideas of Git are shared among others, so this should simplify this tutorial without causing too much confusion.
 
 We will be using these terms for the rest of the guide, so familiarize yourself with them. Additionally, these are terms used across the CS industry, so if you want to work pretty much anywhere which uses a VSC, now is the time to learn!
 
@@ -49,7 +49,7 @@ Some important terms to learn with Git are:
 
 ### Suggested Workflows
 
-It will be up to each project to decide which workflow is best for it. Almost always, an agreed-upon structure on each team is critical, but the exact nature of that structure is up to the needs and proficiencies of those involved. I have worked on projects where we pulled hundreds of branches and reviewed people's code before it could merge, and I've worked on R&D projects where the only think I ever did was commit straight into the master without any branching at all. Each project is different, but here are some heuristics that have served me well:
+It will be up to each project to decide which workflow is best for it. Almost always, an agreed-upon structure on each team is critical, but the exact nature of that structure is up to the needs and proficiencies of those involved. I have worked on projects where we pulled hundreds of branches and reviewed people's code before it could merge, and I've worked on R&D projects where the only thing I ever did was commit straight into the master without any branching at all. Each project is different, but here are some heuristics that have served me well:
 
 ##### Branch and Merge, With Leads Committing to Master
 
@@ -58,10 +58,6 @@ In this tactic, whenever anyone wants to do anything: add a feature, edit some c
 ##### Code Review
 
 Code Reviewing is the practice of having leads, usually engineers, look over peoples' code and suggesting fixes, changes, and bringing up possible bugs, edge cases, etc... that the original programmer may not have considered. Code Reviewers are usually skilled and experienced, but it may also be useful to have young programmers code review each others; even at a early stage, different programmers think differently and so this can be fruitful. The easiest way to code review is to look over commit history or check out pull requests (merges) from branches before approval.
-
-##### Pair Programming
-
-This applies to more than just programming though. While its fortuitous to have programmers work together, just as is the case with having them review each others code, it is also useful to have other artists check each others work, offering constructive criticism and aiding each other in new softwares or skills. This can be a great way to bring new people up to speed, but if done improperly, can force members to feel like they're not participating. If you're going to pair program, make sure the most novice person always understands what is going on. It's usually best to have this person do the actual typing, but make sure they're not simply taking dictation either. As a more junior member in a pair, your job is to make sure you understand; and as a more senior, your job is to make sure the junior understands. The work can wait. It's much more efficient to make you both competent so you can split off and do your own work than it is to finish your current task quickly but learn nothing.
 
 ##### Stash, Pull, Pop, Push
 
