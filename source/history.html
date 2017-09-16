@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Rewriting History: Git Authorship</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../modest.css" type="text/css" />
+  <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<h1 id="rewriting-history-git-authorship">Rewriting History: Git Authorship</h1>
+<p>Having issues with your git history? Perhaps you're not finding that you're credited with commits you believe that you should. This can be caused by a number of issues --perhaps your email is wrong on github, or incorrectly set in your local .git file. There are actually loads of reasons why this might be messed up, and while you should fix that --this guide is only going to teach you how to rewrite this evil, not how to prevent it.</p>
+<p>The first thing we should do is learn a couple of helpful commands that will show us what needs to be fix and indicate our progress.</p>
+<h3 id="a-couple-of-helpful-commands">A Couple of Helpful Commands</h3>
+<p>These must be performed inside of the repository about which you wish to glean information.</p>
+<ol style="list-style-type: decimal">
+<li><code>git shortlog -sn</code> This command will show the number of commits and author name sorted from most to least commits as shown below:</li>
+</ol>
+<div class="figure">
+<img src="./commitsBefore.png" alt="Commits and Authors Before" />
+<p class="caption">Commits and Authors Before</p>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li><code>git log --pretty=&quot;%an %ae%n%cn %ce | sort | uniq</code> This command will show all of the known name and email tuples from commits and sort them alphabetically. This way, you can see which emails need to be replaced. An example is below:</li>
+</ol>
+<div class="figure">
+<img src="./authorsAndEmails.png" alt="Authors and Emails" />
+<p class="caption">Authors and Emails</p>
+</div>
+<h3 id="how-to-rewrite-history">How to Rewrite History</h3>
+<ol style="list-style-type: decimal">
+<li>Clone the git repo you intend to rewrite</li>
+<li>cd into that repo</li>
+<li>Download <a href="https://gist.github.com/SGDatUVA/c799ed204a7102858e1700595a03343b">this shell script</a></li>
+<li>Open that shell script and replace what <code>OLD_EMAIL</code>, <code>CORRECT_NAME</code>, and <code>CORRECT_EMAIL</code> are equal to so that the script will accomplish the change you desire. Refer to the earlier helpful commands if you are unaware of the old email.</li>
+<li>Save your changes and commit the new shell script into your repository; funny enough, you will be unable to run it if there are unstaged or uncommited changes</li>
+<li>Run the shell script with the command <code>sh name.sh</code> where name is the name of the script</li>
+<li>Wait for that to finish</li>
+<li>To make those changes official, use the command <code>git push --force --tags origin 'refs/heads/*'</code> (By the way, these changes won't apply to protected branches)</li>
+<li>Wait again</li>
+<li>To remove the old history, use the command <code>git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch Rakefile' HEAD</code></li>
+<li>Wait again again</li>
+<li>Now you're done! Repeat steps 4 through 11 as necessary to change all the history you desire and then...</li>
+<li>Delete the shell script from your repo and commit that delete</li>
+</ol>
+<p>When you're done, you should see a change in the output of the helpful commands. For example, the first of the helpful commands will show a change in the number of commits attributed to the user you are not applying them to. See the image below and compare it to the one above, paying special attention to the user Zachary Danz:</p>
+<div class="figure">
+<img src="./commitsAfter.png" alt="Commits and Authors Before" />
+<p class="caption">Commits and Authors Before</p>
+</div>
+<p><a href="./index.html">Back</a></p>
+</body>
+</html>
