@@ -18,7 +18,7 @@ These must be performed inside of the repository about which you wish to glean i
 
 ### How to Rewrite History
 
-1. Clone the git repo you intend rewrite
+1. Clone the git repo you intend to rewrite
 2. cd into that repo
 3. Download [this shell script](https://gist.github.com/SGDatUVA/c799ed204a7102858e1700595a03343b)
 4. Open that shell script and replace what `OLD_EMAIL`, `CORRECT_NAME`, and `CORRECT_EMAIL` are equal to so that the script will accomplish the change you desire. Refer to the earlier helpful commands if you are unaware of the old email.
