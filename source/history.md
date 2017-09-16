@@ -34,6 +34,6 @@ These must be performed inside of the repository about which you wish to glean i
 
 When you're done, you should see a change in the output of the helpful commands. For example, the first of the helpful commands will show a change in the number of commits attributed to the user you are not applying them to. See the image below and compare it to the one above, paying special attention to the user Zachary Danz:
 
-![Commits and Authors Before](./commitsAfter.png)
+![Commits and Authors After](./commitsAfter.png)
 
 [Back](./index.md)
