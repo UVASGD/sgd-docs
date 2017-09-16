@@ -3,6 +3,7 @@
 Hello! Welcome to the Source Control subwiki. This is the place for all members of SGD to collaborate and learn about Source Control
 
 [A Complete Guide to Source Control](./guide.md)
+
 [Rewriting History: Git Authorship](./history.md)
 
 ### Common GUIs
