@@ -109,4 +109,25 @@ So you think you can dance? Seriously, the Git Terminal isn't that bad. Sorry I'
 
 If you're looking for more tips and tricks, check out [https://github.com/git-tips/tips](https://github.com/git-tips/tips) and [http://nuclearsquid.com/writings/git-tricks-tips-workflows/](http://nuclearsquid.com/writings/git-tricks-tips-workflows/) especially the sections on *.gitignore* and *.gitattributes*, which we haven't gone over at all!
 
+### Large File Storage
+
+If you're on Mac, this is super easy. If not, sorry. First, install Homebrew if you don't already have it. The terminal command is:
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Next, let's brew us up some lfs with the command:
+
+brew install git-lfs
+
+After this runs, you can ensure it worked by seeing if lfs initalized. Try the command:
+
+git lfs install
+
+Finally, if you want to use LFS on a file (that is more than 100MBs), then simply track it before you add and commit it. Use the command:
+
+git lfs track "[file-name]"
+
+* note: the quotes are important
+* to track a directory, use git lfs track "[directory-name]/**"
+
 [Back](./index.md)
