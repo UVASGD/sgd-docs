@@ -91,6 +91,19 @@
 <li>git prune -&gt; Removes objects that are no longer pointed to by any object in any reachable branch. Example: git prune</li>
 </ul>
 <p>If you're looking for more tips and tricks, check out <a href="https://github.com/git-tips/tips" class="uri">https://github.com/git-tips/tips</a> and <a href="http://nuclearsquid.com/writings/git-tricks-tips-workflows/" class="uri">http://nuclearsquid.com/writings/git-tricks-tips-workflows/</a> especially the sections on <em>.gitignore</em> and <em>.gitattributes</em>, which we haven't gone over at all!</p>
+<h3 id="large-file-storage">Large File Storage</h3>
+<p>If you're on Mac, this is super easy. If not, sorry. First, install Homebrew if you don't already have it. The terminal command is:</p>
+<p>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</p>
+<p>Next, let's brew us up some lfs with the command:</p>
+<p>brew install git-lfs</p>
+<p>After this runs, you can ensure it worked by seeing if lfs initalized. Try the command:</p>
+<p>git lfs install</p>
+<p>Finally, if you want to use LFS on a file (that is more than 100MBs), then simply track it before you add and commit it. Use the command:</p>
+<p>git lfs track &quot;<file-name>&quot;</p>
+<ul>
+<li>note: the quotes are important</li>
+<li>to track a directory, use git lfs track &quot;<directory-name>/**&quot;</li>
+</ul>
 <p><a href="./index.html">Back</a></p>
 </body>
 </html>
