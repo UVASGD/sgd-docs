@@ -125,6 +125,9 @@ git lfs install
 
 Finally, if you want to use LFS on a file (that is more than 100MBs), then simply track it before you add and commit it. Use the command:
 
-git lfs track <file-name>
+git lfs track "<file-name>"
+
+* note: the quotes are important
+* to track a directory, use git lfs track "<directory-name>/**"
 
 [Back](./index.md)
