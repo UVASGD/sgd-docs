@@ -1,6 +1,6 @@
 # SGD Docs
 
-Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](http://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
+Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](https://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
 
 ##### Topics
 
@@ -12,7 +12,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### UVA Specific Material
 
-* [SGD Constitution](uva/constitution.md) and [SGD Constitution in PDF Form](uva/constitution.pdf)
+* [SGD Constitution](uva/constitution.md)
 * [Branding](uva/branding.md)
 * [Booking Space](uva/space.md)
 
