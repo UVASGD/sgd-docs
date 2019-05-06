@@ -60,6 +60,6 @@ Following the completion of the game at the end of the semester, all project ass
 
 ### Article IX: NON-DISCRIMINATION.
 
-As a student organization, SGD is ineligible for CIO status when the organization restricts its membership, programs, or activities on the basis of age, color, disability, gender identity, marital status, national or ethnic origin, political affiliation, race, religion, sex (including pregnancy), sexual orientation, veteran status, and family and genetic information. Notwithstanding these requirements, a CIO may petition to restrict its membership based on gender (e.g. all-male or all-female a cappella groups) or an ability to perform the activities related to the organization’s purpose by filing a written request with the Office of the Dean of Students. In evaluating any such requests, the University will look not merely to the constitution of an organization but to its actual practices and operations. 
+Student Game Developers at UVA does not restrict its membership, programs, or activities on the basis of age, color, disability, gender identity, marital status, national or ethnic origin, political affiliation, race, religion, sex (including pregnancy), sexual orientation, veteran status, and family and genetic information.
 
 [Back](../README.md)
