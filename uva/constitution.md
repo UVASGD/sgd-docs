@@ -36,7 +36,7 @@ Any officer (voting or non-voting) may be impeached at any time by any other off
 
 The following is an enumeration of non-voting officers. These positions may be changed at any time by the executive board with a simple majority vote. Those changes must be reflected here.
 
-(*NOTE*: there are currently no non-voting officer positions)
+1. **SOCIAL MEDIA MANAGER**: The Social Media Manager (Social) is responsible for assisting the Webmaster on running social media for recruiting more members and outreach (Added Fall 2022).
 
 ### Article V: ELECTIONS.
 
