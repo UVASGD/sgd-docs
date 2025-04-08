@@ -1,64 +1,88 @@
-# Constitution for the Student Game Developers at the University of Virginia
+# Constitution for the Student Game Developers at UVA
 
 ### Article I: NAME.
 
-The official name of the organization shall be 'Student Game Developers'.
+The official name of the organization shall be 'Student Game Developers at UVA'. This name may be abbreviated as ‘SGD at UVA’ or ‘SGD’.
 
 ### Article II: PURPOSE.
 
-Student Game Developers seeks to bring together students interested in game development to provide opportunities to gain experience in game development through team projects. In addition, SGD seeks to explore and increase knowledge of the game development industry, while simultaneously help establish networking connections for its members. The intention of the group is not to simply play games, but to be actively involved in the art and science of creating them, whether as a hobby or as preparation for a career.
+Student Game Developers at UVA is established for the expressed purpose of
+Bringing together students interested in game development
+Providing opportunities for students to gain experience in game development through team projects
+Exploring and increasing knowledge of the game development industry
+Establishing networking connections for its members
+Not simply playing games, but to be actively involved in the art and science of creating them, whether as a hobby or as preparation for a career
 
 ### Article III: MEMBERSHIP.
 
-Only students enrolled at the University of Virginia are eligible for membership. An ACTIVE MEMBER is a member who has paid his or her dues for the year and joined a development team. An SENIOR MEMBER is an active member who has worked on a project for at least one full semester.
+While anyone (students, faculty, staff, community members) is welcome to attend general body meetings of SGD at UVA, MEMBERSHIP shall be limited to persons who have paid their dues for the academic year or had them waived.
 
-### Article IV: OFFICERS and VOTING.
+### Article IV: OFFICERS.
 
-There are two types of officers: VOTING OFFICERS and NON-VOTING OFFICERS. VOTING OFFICERS are elected each spring, under Article V, and serve for one full year. The EXECUTIVE BOARD for a given year is the set of all voting officers elected for that year. A UNANIMOUS VOTE requires all sitting member of the executive board to assent in order for the motion in question to be passed. A UNANIMOUS LESS ONE VOTE requires all sitting members of the executive board except one to assent in order for the motion in question to be passed. A SIMPLE MAJORITY VOTE requires more than half of all sitting members of the executive board to assent in order for a motion to be passed. Any motion that is not explicitly said to require a vote other than unanimous is assumed to require a unanimous vote. Any motion that does not reach the required level of votes fails and may not be implemented.
+The following is an enumeration of the officer positions (i.e. the executive board):
 
-NON-VOTING OFFICERS serve at the discretion of the executive board. The President may nominate any member of the club for a non-voting officer position, and this choice must be confirmed by a simple majority vote of the executive board.
+#### **PRESIDENT**
+The President shall maintain the overall health of the organization by holding core events and instructing and overseeing the other officers. The President is responsible for being the face of the club and planning the full semester schedule. The President shall be aware of, check, and assist with all book-keeping and paperwork done by the Treasurer to ensure competency. The President should hold weekly meetings with the rest of the executive board to arrange activities and give final say when needed. Finally, the President is responsible for dealing with any issues that arise that are not explicitly stated to be the responsibility of other officers.
 
-The following is an enumeration of the voting officer positions (i.e. the executive board):
+#### **VICE PRESIDENT**
+The Vice President (VP) shall assist the President with the organization of the club and any miscellaneous responsibilities. The VP is responsible for the maintenance of all physical assets belonging to the club (i.e. the club locker). The VP is responsible for conducting elections and overseeing the electoral process. The VP is also responsible for ensuring that important club events are advertised to non-members. The VP shall also be responsible for overseeing all travel efforts (such as to GDC, Pax, and ECGC). Finally, the VP shall administrate, organize, and advertise at least one game jam per semester (such as GGJ, Ludum Dare, or a club specific game jam).
 
-1. **PRESIDENT**: The President (P) shall maintain the overall health of the organization by organizing events and instructing and overseeing the other officers. The President is responsible for being the outward face of the organization and running group-wide events such as Mid-Semester Expositions, End of Semester Expositions, Crunch Nights, and Pitch Meetings. The President shall be aware, check, and assist with all book-keeping and paperwork done by the Treasurer to ensure competency. Finally, the President is responsible for dealing with any issues that arise that are not explicitly stated to be the responsibility of other officers.
-2. **VICE PRESIDENT**: The Vice President (VP) is responsible for the maintenance of all physical assets belonging to the club. Further, the Vice President is responsible for overseeing a database of the current club membership and maintaining lists of active and senior members. The VP is also responsible for conducting elections, advertising executive roles, and oversee the electoral process. The VP shall also be responsible overseeing all travel efforts, such as to GDC, Pax, and ECGC. Finally, the VP shall administrate, organize, and advertise at least one game jam per semester (such as GGJ and Ludum Dare).
-3. **HEAD OF DIRECTORS**: The Head of Directors (HOD) is responsible for the directors by staying up-to-date with the status of all ongoing projects. The HOD is also responsible for providing builds of games upon their completion to the Webmaster, along with writeups describing said games. The HOD shall also organize and run director meetings the first few weeks of any working semester and otherwise, when appropriate and necessary. Finally, the HOD shall oversee and execute the director application process, approval; general member signup process; and any new members wishing to signup for a game project.
-4. **TREASURER**: The Treasurer (T) shall handle all tasks related to funding. This includes appropriations, dues, management of the bank account, and applying for funding from sources such as Student Council, Engineering Student Council, and the Office of the Vice-President of Student Affairs as well as the purchasing of anything required for club functions, such as food for events or t-shirts. Finally, the Treasurer shall handle all reimbursement forms for external funding and have discretionary power to wave dues for members on a person-to-person basis.
-5. **EXTERNAL RELATIONS**: The External Relations Officer (ERO) shall oversee the contact and general scheduling of visits from members of the game design industry; this shall include inviting at least one guest speaker to workshop or lecture for SGD members per semester. The ERO shall also act as the chief liaison between SGD and its executive board to other CIO's at UVA as well as all games-industry experts. Finally, the ERO shall be responsible for all alumni relations including administration of the Alumni Slack channel.
-6. **INTERNAL RELATIONS**: The Internal Relations Officer (IRO) shall communicate with membership about all club events via email and Slack. The internal relations officer is also responsible for planning the logistics of all club events, including specific scheduling and room reservations. The IRO shall also be responsible for organizing and executing at least one social event per semester including steaming days, game nights, and parties. Finally, the IRO shall run the Slack.
-7. **WEBMASTER**: The Webmaster is responsible for maintaining the SGD website and documenting club activity via photographs or video. The Webmaster shall also be responsible for the games database behind the site. The Webmaster is also responsible for maintaining and expanding our social media presences and activity including LinkedIn, Facebook, and Twitter.
+#### **HEAD OF DIRECTORS**
+The Head of Directors (HOD) is responsible for communicating with directors and monitoring the status and progress of all ongoing game projects. The HOD is responsible for holding meetings with directors to ensure they are making sufficient progress and to assist them with any issues they may encounter. The HOD shall oversee and execute the director application process and selection, as well as the project signup process for non-directors. Finally, any member who would like to join a team after the initial project signup process must contact the HOD.
 
-Voting officer positions may be added or removed by a unanimous vote of the executive board. Any changes made in this way will take effect when the next year's executive board stands for election.
+#### **TREASURER**
+The Treasurer shall manage the finances and funding of the club. This includes ensuring that dues are collected from members, managing the club bank account, applying for funding, and purchasing anything required for club functions. The Treasurer shall handle all reimbursement forms for external funding and have discretionary power to waive dues for members on an individual basis. Finally, the Treasurer is responsible for maintaining a list of due paying members for the current academic year.
 
-The responsibilities of voting officers may be changed by a unanimous vote of the executive board, effective immediately.
+#### **EXTERNAL RELATIONS**
+The External Relations Officer (ERO) shall oversee the contact and general scheduling of events featuring members of the game design industry; this shall include inviting at least one guest speaker to workshop or lecture for SGD members per semester. The ERO shall also act as the chief liaison between SGD and its executive board to other entities inside and outside UVA, including but not limited to CIOs at UVA and other institutions, game-industry experts, career center contacts, and so on. The ERO will be responsible for organizing any “external” events; meaning travel events, events organized with other entities or persons outside the club, or otherwise any event that requires SGD to have significant public-facing interactions with any other entity or person. The ERO is also responsible for monitoring the club email for any communications with the club. Finally, the ERO shall be responsible for all alumni relations including administration of the alumni Discord channel.
 
-Any officer (voting or non-voting) may be impeached at any time by any other officer, in accordance with the following procedure: the PROSECUTING OFFICER, who is the officer who wishes to impeach, must provide justification to the entire executive board of the unsuitableness of the DEFENDANT OFFICER for carrying out his or her duties. The defendant officer must be present for this justification. Following the prosecution's justification, the defendant officer is given the opportunity to offer a rebuttal. A vote is then called. The defendant officer may request a recess of up to one hour before this vote is held. The vote requires a unanimous less one vote to impeach the defendant officer. If this succeeds, the defendant is removed from his or her position immediately and the President may nominate another member to fill in until the next election. This nominee must be confirmed by a simple majority vote of the remaining voting officers. In the event that the impeachment vote fails, the prosecuting officer may not attempt to impeach any other officer until his or her term has ended.
+#### **INTERNAL RELATIONS**
+The Internal Relations Officer (IRO) shall manage internal communications with its members about all club events via email and Discord. The IRO is responsible for organizing at least one social event per semester. Finally, the IRO is responsible for maintaining, monitoring, and moderating the club’s Discord server.
 
-The following is an enumeration of non-voting officers. These positions may be changed at any time by the executive board with a simple majority vote. Those changes must be reflected here.
+#### **WEBMASTER**
+The Webmaster is responsible for maintaining the SGD website and documenting club activity via photographs or video. The Webmaster is responsible for managing the location of SGD projects (currently held on Itch.io). The Webmaster is also responsible for maintaining and expanding our social media presences on platforms such as Instagram and LinkedIn.
 
-1. **SOCIAL MEDIA MANAGER**: The Social Media Manager (Social) is responsible for assisting the Webmaster on running social media for recruiting more members and outreach (Added Fall 2022).
+New officer positions may be added or removed by a unanimous vote of the executive board. Any changes made in this way will take effect when the next year's executive board stands for election.
+
+The responsibilities of officers may be changed by a unanimous vote of the executive board.
 
 ### Article V: ELECTIONS.
 
-Elections are to be held at the Mid Semester Expo during the spring semester. In these elections, any senior member may stand for election to any voting officer position. The positions will be voted on in the order they appear in this constitution. No person may hold more than one position at any one time - that is, someone elected to a position may not stand for another position. Newly elected voting officers will shadow their predecessors during all SGD functions until the conclusion of the spring semester, and will take full responsibility for the club thereupon.
+Elections are to be held at the beginning of Crunch Night during the Spring semester. All officer positions shall be open for voting in the Spring, whereas only positions that are vacant at the end of the Fall semester may be voted for in the Fall during a special election under extenuating circumstances.
 
-Votes may be counted *in absentia* if and only if an senior member sends his or her votes before the beginning of the Spring MSE.
+In elections, any member who has participated in a game project for at least one semester may stand for election to any officer position being voted on. The positions will be voted on in the order they appear in this constitution, as listed in Article IV. No person may hold more than one officer position at any one time - that is, someone elected to a position may not stand for another position. Newly elected officers will be transitioned into their roles by their respective predecessors and will take full responsibility for their positions in the club after the semester ends.
 
-Only active members may vote in the elections.
+For each position, candidates shall give a short speech and answer questions, time allowing, from any members who wish to do so. After all candidates for a position have spoken, they will leave the room so that the remaining members may briefly discuss them. Afterward, present members will vote on which candidate to elect to said position. Voting will be conducted as follows:
 
-### Article VI: FINANCE.
+All present members, except for the President and Vice President, shall vote anonymously on each candidate. Voting members may not vote for multiple candidates. After all candidates have been voted for, the President and Vice President shall total the votes, decide the winner by majority, and announce the winner to the club. In the event of a tie, voting will be conducted between the tied candidates. If another tie occurs, the President and Vice President will decide a winner amongst themselves.
 
-SGD will maintain a bank account. Only the treasurer may access the funds contained therein, and he or she may only do so with the express consent of the president. Dues will be assessed on a yearly basis; the usage of said dues is entirely up to the discretion of the relevant year’s executive board; the amount of dues must be set each year by that year’s executive board at the beginning of the academic year. All questions related to dues require a simple majority vote of the executive board.
+Only voters present at the meeting during the time of voting may have their votes counted, unless a member submits a request to an executive board member to vote in absentia prior the beginning of Crunch Night.
 
-### Article VII. AMENDMENTS.
+Any officer may be impeached at any time by any other officer, in accordance with the following procedure: the PROSECUTING OFFICER, who is the officer who wishes to impeach, must provide justification to the entire executive board of the unsuitableness of the DEFENDANT OFFICER for carrying out their duties. The defendant officer must be present for this justification. Following the prosecution's justification, the defendant officer is given the opportunity to offer a rebuttal. A vote is then called. The defendant officer may request a recess of up to one hour before this vote is held. The vote requires an all but one unanimous vote from the executive board (not including the prosecuting and defendant officers) to impeach the defendant officer. If this succeeds, the defendant is removed from their position immediately and the highest ranking officer on the board may nominate another member to fill in until the next election. This nominee must be confirmed by a simple majority vote of the remaining officers. In the event that the impeachment vote fails, the prosecuting officer may not attempt to impeach any other officer until their term has ended.
 
-Amendments to this constitution may be proposed and broadcast to the club by any voting officer at least fifteen days prior to the club-wide event where voting shall be done. A unanimous vote is required to ratify any changes, unless it says otherwise elsewhere in this document. Any changes made are effective immediately, unless it says otherwise elsewhere in this document.
+### Article VI: MEETINGS.
 
-### Article VIII: GAME RELEASE and INTELLECTUAL PROPERTY.
+General body meetings will occur on a weekly basis. Individual teams are encouraged to hold team specific meetings on a weekly basis.
 
-Following the completion of the game at the end of the semester, all project assets will be moved to a publicly available repository under the Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) license. In the event that a game is continuing from the fall into a spring project as well, the assets will not be uploaded until the end of the spring semester. If a project is continuing from the spring into the fall, the assets will be uploaded at the end of the spring, and then updated following the end of the fall semester.
+### Article VII: FINANCE.
 
-### Article IX: NON-DISCRIMINATION.
+SGD will maintain a bank account. Only the Treasurer may access the funds contained therein, and they may only do so with the express consent of the president. The due amount will be assessed and set on a yearly basis by the executive board. The usage of said dues is entirely up to the discretion of the relevant year’s executive board. Members shall pay the said dues regardless of when they join the club within the academic year.
+
+### Article VIII: BY-LAWS.
+
+There are no by-laws.
+
+### Article IX: AMENDMENTS.
+
+Amendments to this constitution must be proposed and broadcast to the club by any officer at least seven days prior to the club-wide event where voting shall be held. A two-thirds majority vote by the voting club members is required to ratify any changes, unless otherwise stated in this Constitution. Any changes made are effective immediately, unless otherwise stated in this Constitution. 
+
+### Article X: GAME RELEASE and INTELLECTUAL PROPERTY.
+
+Following the completion of the game at the end of the semester, all components used in the final build of the game, such as assets and code, shall be in a publicly available repository under the Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) license.
+
+No profits shall be made from any projects produced in this club.
+
+### Article XI: NON-DISCRIMINATION.
 
 Student Game Developers at UVA does not restrict its membership, programs, or activities on the basis of age, color, disability, gender identity, marital status, national or ethnic origin, political affiliation, race, religion, sex (including pregnancy), sexual orientation, veteran status, and family and genetic information.
 
