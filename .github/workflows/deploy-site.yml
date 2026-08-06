@@ -1,8 +1,7 @@
 name: Pandoc + Deploy Site
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
 
 jobs:
   build-deploy:
