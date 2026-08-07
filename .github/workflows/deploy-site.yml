@@ -25,11 +25,10 @@ jobs:
 #          GH_REF: ${{secrets.GH_REF}}
 #          GH_TOKEN: ${{secrets.GH_TOKEN}}
 
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-
       - name: Upload HTML Artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
 
   deploy:
     runs-on: ubuntu-latest

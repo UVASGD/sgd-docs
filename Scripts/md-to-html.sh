@@ -24,8 +24,7 @@ for infile in `find . | grep '\.md$'`; do
 		-o "$outfile"
 done
 
-cd ..
-mkdir sgd-docs-ghp
+mkdir -p build
 rsync -avm --include='*.html' \
 	--include='*.pdf' \
 	--include '*.png' \
@@ -33,5 +32,4 @@ rsync -avm --include='*.html' \
 	--include '*.css' \
 	--include '*.js' \
 	--include '*.ico' \
-	--filter='hide,! */' sgd-docs/ sgd-docs-ghp
-cd sgd-docs-ghp
+	--filter='hide,! */' ./ ./build
