@@ -3,17 +3,17 @@
 # this is now unused in favor of using github actions to publish to github pages
 
 # make a commit on gh-pages branch and push to deploy
-cd ..
-git clone --depth=50 --branch=gh-pages "https://${GH_REF}" sgd-docs-ghp
-rsync -avm --include='*.html' \
-	--include='*.pdf' \
-	--include '*.png' \
-	--include '*.jpg' \
-	--include '*.css' \
-	--include '*.js' \
-	--include '*.ico' \
-	--filter='hide,! */' sgd-docs/ sgd-docs-ghp
-cd sgd-docs-ghp
+#cd ..
+#git clone --depth=50 --branch=gh-pages "https://${GH_REF}" sgd-docs-ghp
+#rsync -avm --include='*.html' \
+#	--include='*.pdf' \
+#	--include '*.png' \
+#	--include '*.jpg' \
+#	--include '*.css' \
+#	--include '*.js' \
+#	--include '*.ico' \
+#	--filter='hide,! */' sgd-docs/ sgd-docs-ghp
+#cd sgd-docs-ghp
 git config user.name "Travis CI"
 git config user.email "sgdatuva@gmail.com"
 git add .
