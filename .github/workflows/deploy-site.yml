@@ -4,7 +4,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,5 +31,13 @@ jobs:
       - name: Upload HTML Artifact
         uses: actions/upload-pages-artifact@v3
 
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
