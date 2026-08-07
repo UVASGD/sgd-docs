@@ -18,6 +18,8 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### Contributing
 
+Test change to verify new github actions workflow works
+
 If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). You may contribute by submitting changes in the form of [Markdown documents](#markdown-conversion-build), and these changes will reflect on GitHub Pages automatically.
 
 Before starting any new work, please review the following rules:

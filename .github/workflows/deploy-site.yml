@@ -19,8 +19,14 @@ jobs:
       - name: Convert Markdown to HTML
         run: bash ./Scripts/md-to-html.sh
 
-      - name: Push to gh_pages branch
-        run: bash ./Scripts/deploy-gh-pages.sh
-        env:
-          GH_REF: ${{secrets.GH_REF}}
-          GH_TOKEN: ${{secrets.GH_TOKEN}}
+#      - name: Push to gh_pages branch
+#        run: bash ./Scripts/deploy-gh-pages.sh
+#        env:
+#          GH_REF: ${{secrets.GH_REF}}
+#          GH_TOKEN: ${{secrets.GH_TOKEN}}
+
+      - name: Upload HTML Artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
