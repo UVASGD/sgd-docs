@@ -1,6 +1,7 @@
 # generated files
 #
 *.html
+!index.html
 
 # Mac temp files (taken from https://github.com/github/gitignore/blob/master/Global/macOS.gitignore)
 #

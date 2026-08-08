@@ -23,3 +23,13 @@ for infile in `find . | grep '\.md$'`; do
 		-c "${pathprefix}modest.css" \
 		-o "$outfile"
 done
+
+mkdir -p build
+rsync -avm --include='*.html' \
+	--include='*.pdf' \
+	--include '*.png' \
+	--include '*.jpg' \
+	--include '*.css' \
+	--include '*.js' \
+	--include '*.ico' \
+	--filter='hide,! */' ./ ./build
