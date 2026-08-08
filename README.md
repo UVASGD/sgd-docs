@@ -18,7 +18,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 
 ### Contributing
 
-If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). You may contribute by submitting changes in the form of [Markdown documents](#markdown-conversion-build), and these changes will reflect on GitHub Pages automatically.
+If you arrived via the GitHub Pages interface, [the repo is hosted on GitHub](https://github.com/UVASGD/sgd-docs). You may contribute by submitting changes in the form of [Markdown documents](#markdown-conversion-), and these changes will reflect on GitHub Pages automatically.
 
 Before starting any new work, please review the following rules:
 
@@ -33,13 +33,13 @@ Before starting any new work, please review the following rules:
 
 If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
 
-* To run `Scripts/md-to-html.sh`, [Pandoc](#markdown-conversion-build) needs to be installed and added to the PATH.
+* To run `Scripts/md-to-html.sh`, [Pandoc](#markdown-conversion-) needs to be installed and added to the PATH.
 * To run Bash scripts on Windows, use the [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), [Cygwin](https://www.cygwin.com/), [MinGW](http://www.mingw.org/), or [Git Shell](https://desktop.github.com/).
 * The HTML files should be gitignored, but in any case, do not push them to `master`.
 
 Your support on this project is much appreciated! Feel free to reach out to the Head of Directors or Vice President (noted above) if you have any questions or concerns.
 
-### Markdown Conversion [![Build](https://travis-ci.org/UVASGD/sgd-docs.svg?branch=master)](https://travis-ci.org/UVASGD/sgd-docs)
+### Markdown Conversion [![Pandoc + Deploy Site](https://github.com/UVASGD/sgd-docs/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/UVASGD/sgd-docs/actions/workflows/deploy-site.yml)
 
 Content is written in [Markdown](https://daringfireball.net/projects/markdown/), as it is easy to write and renders well on GitHub; it is converted to HTML so it can be consumed on GitHub Pages as well. The conversion is handled by [Pandoc](http://pandoc.org/) with the help of scripts adapted from a UVa CS course. These scripts are run automatically through GitHub Actions whenever changes are made to the `master` branch.
 
