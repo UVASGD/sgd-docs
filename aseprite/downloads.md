@@ -2,6 +2,11 @@
 
 *Last updated 4/6/2017*
 
+***8/7/2026: Student Game Developers at UVA will not distribute any newer versions of Aseprite. 
+[Aseprite does not/no longer provides student licenses anyway.](https://www.aseprite.org/educational/) 
+You can buy Aseprite [here](https://www.aseprite.org/) or [build it from source](https://github.com/aseprite/aseprite) 
+which is legal as long as you don't distribute the built binaries.***
+
 **NOTE**: By downloading, installing, and using these binaries you confirm that you are a UVA student and are complying (and will continue to comply) with the [Aseprite EULA for UVA](./license.md).
 
 ### Windows
