@@ -1,8 +1,8 @@
-# Resources for Jammers
+# Megalist of Resources for Game Devs
 
 *Last updated 5/5/2017*
 
-Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from links to game engines to board game tips to online sound synthesizers! So take a look around!
+Welcome to the Resources for ~~Jammers~~ Game Devs subwiki! There's a ton of stuff here from links to game engines to board game tips to online sound synthesizers! So take a look around!
 
 ### Tools
 

@@ -7,7 +7,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 * [Unity](unity/index.md)
 * [Source Control](source/index.md)
 * [Aseprite](aseprite/index.md) 
-* [Resources for Jammers](jams/index.md)
+* [Megalist of Resources for Game Devs](megalist/index.md)
 * [GDC Write-ups](gdc/index.md)
 
 ### UVA Specific Material
