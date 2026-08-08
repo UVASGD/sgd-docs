@@ -1,5 +1,7 @@
 # Unity: Continuous Integration with Travis CI
 
+*Last updated 5/15/2017*
+
 This article explains how to set up a [Unity](https://unity3d.com/) project hosted on [GitHub](https://github.com/) with [Travis CI](https://travis-ci.org/) so that Travis can run unit tests as well as make builds and upload them to a dedicated server. An example repository with all the steps completed can be [found here](https://github.com/SebastianJay/unity-ci-test).
 
 ### An aside on Unity Cloud Build

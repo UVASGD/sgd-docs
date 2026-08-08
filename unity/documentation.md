@@ -1,5 +1,7 @@
 # Unity: Tips on Code Documentation
 
+*Last updated 5/15/2017*
+
 This article offers some pointers on documenting a codebase within Unity. The [last section](#unity-inspector-customization) generalizes documentation to validation and organization as well. This post assumes that you are using C#, though the same principles apply for other languages.
 
 ## Naming Conventions

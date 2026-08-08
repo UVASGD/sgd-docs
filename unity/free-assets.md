@@ -1,5 +1,7 @@
 # Free Unity Assets Mega List
 
+*Last updated 5/16/2017*
+
 * The original form of this list is maintained by the Procedural Worlds team, authors of [GAIA](http://www.procedural-worlds.com/gaia/) and [GeNa](http://www.procedural-worlds.com/gena/) at:
 [http://www.procedural-worlds.com/blog/best-free-unity-assets-categorised-mega-list/](http://www.procedural-worlds.com/blog/best-free-unity-assets-categorised-mega-list/). The duplication of that list here is simply to ensure its preservation. This copy of that list was curated by Zach Danz in the Summer of 2017
 

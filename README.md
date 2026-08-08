@@ -30,6 +30,7 @@ Before starting any new work, please review the following rules:
     * If the code fits within the context of a GitHub project, then link the Markdown doc to the file on GitHub.
     * If the code is used for explanatory purposes in a tutorial (and is not very long), then embed it inline with the Markdown.
 5. Include a _Back_ link that steps up the document tree hierarchy at the end of each document.
+6. Add or update the "last updated" line at the top of the page.
 
 If you would like to preview the HTML files locally before pushing the Markdown documents, run `Scripts/md-to-html.sh` from a shell whose current directory is the repo root directory. Some tips:
 

@@ -1,5 +1,7 @@
 # Resources for Jammers
 
+*Last updated 5/5/2017*
+
 Welcome to the Resources for Jammers subwiki! There's a ton of stuff here from links to game engines to board game tips to online sound synthesizers! So take a look around!
 
 ### Tools

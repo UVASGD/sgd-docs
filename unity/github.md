@@ -1,5 +1,7 @@
 # Using GitHub with Unity
 
+*Last updated 5/5/2017*
+
 This article discusses how to effectively use [GitHub](https://github.com) with [Unity](https://unity3d.com/) to prevent as many headaches as possible.
 
 ## Initial Setup

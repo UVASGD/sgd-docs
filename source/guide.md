@@ -1,5 +1,7 @@
 # A Complete Guide to Source Control
 
+*Last updated 1/29/2018*
+
 This guide is divided into three primary parts:
 1. What is Source Control and Why is it Important?
 2. Important Terms and Commands

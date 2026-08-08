@@ -1,5 +1,7 @@
 # Rewriting History: Git Authorship
 
+*Last updated 9/16/2017*
+
 Having issues with your git history? Perhaps you're not finding that you're credited with commits you believe that you should. This can be caused by a number of issues --perhaps your email is wrong on github, or incorrectly set in your local .git file. There are actually loads of reasons why this might be messed up, and while you should fix that --this guide is only going to teach you how to rewrite this evil, not how to prevent it. 
 
 The first thing we should do is learn a couple of helpful commands that will show us what needs to be fix and indicate our progress.

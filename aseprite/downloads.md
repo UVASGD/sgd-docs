@@ -1,5 +1,7 @@
 # Download Aseprite through UVA Student EULA
 
+*Last updated 4/6/2017*
+
 **NOTE**: By downloading, installing, and using these binaries you confirm that you are a UVA student and are complying (and will continue to comply) with the [Aseprite EULA for UVA](./license.md).
 
 ### Windows

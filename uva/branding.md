@@ -1,5 +1,7 @@
 # Branding for SGD at UVA
 
+*Last updated 8/7/2026*
+
 Some general guidelines follow:
 
 * SGD at UVA must always be presented as "SGD at UVA" or "Student Game Developers at the University of Virginia" or some derivative.
