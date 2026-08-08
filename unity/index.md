@@ -6,13 +6,15 @@ Hello! Welcome to the Unity subwiki. This space is for programmers and designers
 
 * [Free Unity Assets Mega List](free-assets.md)
 * [Photon Unity Networking](photon.md)
-* [Continuous Integration with Travis CI](continuous-integration.md)
 
 ### Workflows
 
 * [Unity and GitHub](github.md)
 * [Code Documentation](documentation.md)
 * [Unit Testing](unit-testing.md)
+
+### Older guides
+* [Continuous Integration with Travis CI](continuous-integration.md)
 
 ##### Installing Unity
 

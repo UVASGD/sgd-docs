@@ -2,6 +2,8 @@
 
 *Last updated 5/15/2017*
 
+***8/7/2026: Travis CI is no longer free for open source projects as of 2020. You may want to use something else, like [Jenkins](https://www.jenkins.io/) or [GitHub Actions](https://github.com/features/actions).***
+
 This article explains how to set up a [Unity](https://unity3d.com/) project hosted on [GitHub](https://github.com/) with [Travis CI](https://travis-ci.org/) so that Travis can run unit tests as well as make builds and upload them to a dedicated server. An example repository with all the steps completed can be [found here](https://github.com/SebastianJay/unity-ci-test).
 
 ### An aside on Unity Cloud Build
