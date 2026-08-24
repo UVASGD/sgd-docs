@@ -14,12 +14,18 @@ Some general guidelines follow:
 - Darkest: #5C4A9E
 
 # Square Logos
-![square.png](branding2025/square.png)
+![SGD Logo](branding2025/Default%20SGD%20Logo%20.png)
 
-![squarewithyellowglow.png](branding2025/squarewithyellowglow.png)
+![SGD Logo Color Splash](branding2025/SGD%20Logo%20Color%20Splash%20with%20Transparent%20Background.png)
+
+![SGD Logo Color Splash with White Background](branding2025/SGD%20Logo%20Color%20Splash%20with%20White%20Background.png)
 
 # Banner
-![banner.png](branding2025/banner.png)
+![SGD Server Banner](branding2025/SGD%20Server%20Banner.png)
+
+![SGD Server Banner Alt 1](branding2025/SGD%20Server%20Banner%20V2.png)
+
+![SGD Server Banner Alt 2](branding2025/SGD%20Server%20Banner%20V3.png)
 
 [Older, 2017 branding page](branding2017.md)
 
