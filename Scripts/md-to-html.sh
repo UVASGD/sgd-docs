@@ -32,4 +32,5 @@ rsync -avm --include='*.html' \
 	--include '*.css' \
 	--include '*.js' \
 	--include '*.ico' \
+	--include '*.zip' \
 	--filter='hide,! */' ./ ./build
