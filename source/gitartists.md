@@ -26,7 +26,33 @@ Go ahead and download [GitHub Desktop](https://github.com/UVASGD/sgd-docs)
 You will be making a copy of the game project and storing it on your personal computer.
 What GitHub Desktop does is check and let you update the project (pulling new changes)
 
-...
+## How to download and open the project
+
+**Step 1: Finding the link to the project *repository***
+
+The link should look something similar to `https://github.com/USERNAME/PROJECT_NAME`, for example,
+https://github.com/UVASGD/spring-2025-lucid-nightmares. 
+Ask a director or someone else if you're not sure.
+
+Please note that if you're just copying the project to your computer, you **will NOT** need 
+a GitHub account.
+
+**Step 2: Cloning the project in GitHub Desktop**
+
+Open GitHub Desktop.
+
+In the top-left, click **File -> Clone Repository**.
+Then in the menu that appears, click the **URL** tab 
+and enter the repository link you found in Step 1.
+
+![File -> Clone Repository](clone.png)
+![Click the URL tab and paste the repository URL](url.png)
+
+The **Local Path** specifies where the project files will live on your computer.
+
+Once you're done click **Clone** and GitHub Desktop will download the project.
+
+**Step 3: Opening your project in the game engine**
 
 outline:
 - the idea of keeping a copy of the game project on your computer
