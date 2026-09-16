@@ -28,7 +28,7 @@ What GitHub Desktop does is check and let you update the project (pulling new ch
 
 ## How to download and open the project
 
-**Step 1: Finding the link to the project *repository***
+### Step 1: Finding the link to the project *repository*
 
 The link should look something similar to `https://github.com/USERNAME/PROJECT_NAME`, for example,
 https://github.com/UVASGD/spring-2025-lucid-nightmares. 
@@ -37,7 +37,7 @@ Ask a director or someone else if you're not sure.
 Please note that if you're just copying the project to your computer, you **will NOT** need 
 a GitHub account.
 
-**Step 2: Cloning the project in GitHub Desktop**
+### Step 2: Cloning the project in GitHub Desktop
 
 Open GitHub Desktop.
 
@@ -52,10 +52,72 @@ The **Local Path** specifies where the project files will live on your computer.
 
 Once you're done click **Clone** and GitHub Desktop will download the project.
 
-**Step 3: Opening your project in the game engine**
+### Step 3: Opening your project in the game engine
 
-outline:
-- the idea of keeping a copy of the game project on your computer
-- opening the project in godot and unity
-- keeping your local copy up-to-date
-- adding your art and pushing it online (if you really want to)
+This will depend on what game engine the team is using.
+
+**Godot**
+
+For Godot, first figure out which version of Godot the team is using. If you don't know you can
+always just default to the latest version.
+
+Download Godot at https://godotengine.org/
+
+Extract it and open, then click "Import" in the top left.
+
+![Click the Import button](import.png)
+
+Find where GitHub Desktop downloaded the project, then double-click the `project.godot` file.
+
+![project.godot](projectgodot.png)
+
+Then you should be in! To run the project you can click the play button in the top right, but you
+may need to reach out to someone in order to run the right scene, especially if the game is still
+undergoing development.
+
+![Godot Editor](editor.png)
+
+**Unity**
+
+Download Unity at https://unity.com/download. You'll have to make an account.
+*Installation takes a while!*
+
+Once you can load up the Unity Hub, click Add -> Add Project from disk
+
+![Add -> Add Project](addproj.png)
+
+Locate the folder with the project that GitHub Desktop downloaded, 
+then click "Open" with it highlighted.
+
+Click on the project if it doesn't open automatically, but then you should be in!
+To run the project you can click the play button at the top, but you might need
+to reach out to someone in order to run the right scene, especially if the game is still
+undergoing development.
+
+![Unity Editor](unityeditor.png)
+
+## Keeping your project up to date
+
+So you can open the game and run it? That's great!
+
+But when someone updates the project on GitHub, you'll need to **pull** the changes from the Internet.
+
+This is done in two clicks.
+Head back to **GitHub Desktop**, select the correct repository, and click **Fetch Origin**
+
+![Fetch](fetch.png)
+
+If nothing happens to the button then your project is up to date. But if there is something new
+that your copy of the game doesn't have yet, then it will change to **Pull Origin**
+
+![Pull](pull.png)
+
+Click that and your project will automatically be updated!
+
+## Other things
+
+I won't cover making changes to the project and pushing it to GitHub here.
+If you're interested in that, you might want to see the [other guides on Git](index.md),
+or the [official documentation on GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop).
+
+Good luck!
