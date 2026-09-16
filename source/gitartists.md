@@ -1,5 +1,7 @@
 ### Git/GitHub Guide for Artists and Non-Technical Backgrounds
 
+*Last updated 09/15/2026*
+
 ## *"what is a github im not a programmer. why do i care?"*
 
 If you're an artist, musician, or other creative person, you'll usually just be uploading
@@ -121,3 +123,5 @@ If you're interested in that, you might want to see the [other guides on Git](in
 or the [official documentation on GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop).
 
 Good luck!
+
+[Back](./index.md)
