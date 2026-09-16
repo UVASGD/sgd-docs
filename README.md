@@ -7,6 +7,7 @@ Documents, tutorials, and tips designed to help members of [Student Game Develop
 * [Unity](unity/index.md)
 * [Godot Workshop Template Download](godot-workshop/sgd-workshop-template.zip)
 * [Source Control](source/index.md)
+  * [GitHub For Artists/Non-Technical Backgrounds](source/gitartists.md)
 * [Aseprite](aseprite/index.md) 
 * [Megalist of Resources for Game Devs](megalist/index.md)
 * [GDC Write-ups](gdc/index.md)
