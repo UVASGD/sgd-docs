@@ -2,7 +2,7 @@
 
 *Last updated 09/15/2026*
 
-## *"what is a github im not a programmer. why do i care?"*
+## *"what is a github im not a programmer. why should i care?"*
 
 If you're an artist, musician, or other creative person, you'll usually just be uploading
 your work to Google Drive or some other platform, then someone else will put it in the game
