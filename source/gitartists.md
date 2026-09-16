@@ -45,8 +45,8 @@ In the top-left, click **File -> Clone Repository**.
 Then in the menu that appears, click the **URL** tab 
 and enter the repository link you found in Step 1.
 
-![File -> Clone Repository](clone.png)
-![Click the URL tab and paste the repository URL](url.png)
+![File -> Clone Repository](gitartistsimages/clone.png)
+![Click the URL tab and paste the repository URL](gitartistsimages/url.png)
 
 The **Local Path** specifies where the project files will live on your computer.
 
@@ -65,17 +65,17 @@ Download Godot at https://godotengine.org/
 
 Extract it and open, then click "Import" in the top left.
 
-![Click the Import button](import.png)
+![Click the Import button](gitartistsimages/import.png)
 
 Find where GitHub Desktop downloaded the project, then double-click the `project.godot` file.
 
-![project.godot](projectgodot.png)
+![project.godot](gitartistsimages/projectgodot.png)
 
 Then you should be in! To run the project you can click the play button in the top right, but you
 may need to reach out to someone in order to run the right scene, especially if the game is still
 undergoing development.
 
-![Godot Editor](editor.png)
+![Godot Editor](gitartistsimages/godoteditor.png)
 
 **Unity**
 
@@ -84,7 +84,7 @@ Download Unity at https://unity.com/download. You'll have to make an account.
 
 Once you can load up the Unity Hub, click Add -> Add Project from disk
 
-![Add -> Add Project](addproj.png)
+![Add -> Add Project](gitartistsimages/addproj.png)
 
 Locate the folder with the project that GitHub Desktop downloaded, 
 then click "Open" with it highlighted.
@@ -94,7 +94,7 @@ To run the project you can click the play button at the top, but you might need
 to reach out to someone in order to run the right scene, especially if the game is still
 undergoing development.
 
-![Unity Editor](unityeditor.png)
+![Unity Editor](gitartistsimages/unityeditor.png)
 
 ## Keeping your project up to date
 
@@ -105,12 +105,12 @@ But when someone updates the project on GitHub, you'll need to **pull** the chan
 This is done in two clicks.
 Head back to **GitHub Desktop**, select the correct repository, and click **Fetch Origin**
 
-![Fetch](fetch.png)
+![Fetch](gitartistsimages/fetch.png)
 
 If nothing happens to the button then your project is up to date. But if there is something new
 that your copy of the game doesn't have yet, then it will change to **Pull Origin**
 
-![Pull](pull.png)
+![Pull](gitartistsimages/pull.png)
 
 Click that and your project will automatically be updated!
 
