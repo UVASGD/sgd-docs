@@ -33,7 +33,7 @@ What GitHub Desktop does is check and let you update the project (pulling new ch
 ### Step 1: Finding the link to the project *repository*
 
 The link should look something similar to `https://github.com/USERNAME/PROJECT_NAME`, for example,
-https://github.com/UVASGD/spring-2025-lucid-nightmares. 
+[https://github.com/UVASGD/spring-2025-lucid-nightmares](https://github.com/UVASGD/spring-2025-lucid-nightmares). 
 Ask a director or someone else if you're not sure.
 
 Please note that if you're just copying the project to your computer, you **will NOT** need 
@@ -63,7 +63,7 @@ This will depend on what game engine the team is using.
 For Godot, first figure out which version of Godot the team is using. If you don't know you can
 always just default to the latest version.
 
-Download Godot at https://godotengine.org/
+Download Godot at [https://godotengine.org/](https://godotengine.org/)
 
 Extract it and open, then click "Import" in the top left.
 
@@ -81,7 +81,7 @@ undergoing development.
 
 **Unity**
 
-Download Unity at https://unity.com/download. You'll have to make an account.
+Download Unity at [https://unity.com/download](https://unity.com/download). You'll have to make an account.
 *Installation takes a while!*
 
 Once you can load up the Unity Hub, click Add -> Add Project from disk
