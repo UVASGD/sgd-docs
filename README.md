@@ -2,12 +2,16 @@
 
 Documents, tutorials, and tips designed to help members of [Student Game Developers at UVa](https://sgd.cs.virginia.edu/) and any other game developers! Topics will be added as the club learns about new tools and technologies.
 
+##### For new people
+
+* [GitHub For Artists/Non-Technical Backgrounds](source/gitartists.md)
+* [SGD Godot Workshop (Fall 2026)](godot/godot-workshop.md)
+
 ##### Topics
 
 * [Unity](unity/index.md)
-* [Godot Workshop Template Download](godot-workshop/sgd-workshop-template.zip)
+* [Godot](godot/index.md)
 * [Source Control](source/index.md)
-  * [GitHub For Artists/Non-Technical Backgrounds](source/gitartists.md)
 * [Aseprite](aseprite/index.md) 
 * [Megalist of Resources for Game Devs](megalist/index.md)
 * [GDC Write-ups](gdc/index.md)

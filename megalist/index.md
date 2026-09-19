@@ -1,8 +1,13 @@
 # Megalist of Resources for Game Devs
 
-*Last updated 5/5/2017*
+*Last updated 09/18/2026*
 
 Welcome to the Resources for ~~Jammers~~ Game Devs subwiki! There's a ton of stuff here from links to game engines to board game tips to online sound synthesizers! So take a look around!
+
+### Good watches
+* [Indie Game Architecture](https://youtu.be/8WqYQ1OwxJ4?is=nOFVd_xqEQC2edR4)
+* [Great intro to graphics and material shaders](https://www.youtube.com/watch?v=PH9q0HNBjT4)
+* [Great intro to postprocessors and volumetrics](https://www.youtube.com/watch?v=4QOcCGI6xOU)
 
 ### Tools
 
