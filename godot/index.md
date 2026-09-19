@@ -3,15 +3,15 @@
 Welcome to the Godot sub-wiki! 
 This contains lots of links to resources about the Godot game engine.
 
-## Downloading
+##### Downloading
 
 [https://godotengine.org/download/](https://godotengine.org/download/)
 
-## Workshop
+##### Workshop
 
 [SGD Godot Workshop (Fall 2026)](godot-workshop.md)
 
-## Official Godot Documentation + Guides
+##### Official Godot Documentation + Guides
 
 [Godot Documentation](https://docs.godotengine.org/en/stable/)
 
@@ -22,7 +22,7 @@ This contains lots of links to resources about the Godot game engine.
 - [AnimationPlayer Guide](https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html)
 - [Best Practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html)
 
-## Other Online Resources
+##### Other Online Resources
 
 - [KidsCanCode's Recipes: ](https://kidscancode.org/godot_recipes/4.x/) (Has a ton of simple solutions for 
 common features in both 2D and 3D games)
@@ -30,7 +30,7 @@ common features in both 2D and 3D games)
 - [How to make moving platforms](https://kidscancode.org/godot_recipes/4.x/2d/moving_platforms/index.html)
 
 
-## YouTube
+##### YouTube
 
 - [GDQuest's YouTube Channel](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ)
 - [Brackeys - How to GDScript](https://www.youtube.com/watch?v=LOhfqjmasi0)
